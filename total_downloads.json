@@ -1,0 +1,13 @@
+{
+  "osmojs": 167708,
+  "chain-registry": 281300,
+  "@chain-registry/client": 14241,
+  "create-cosmos-app": 10086,
+  "@interchain-ui/react": 40226,
+  "@cosmology/telescope": 37061,
+  "@osmonauts/telescope": 187591,
+  "@cosmwasm/ts-codegen": 233393,
+  "@cosmos-kit/core": 226579,
+  "@cosmos-kit/react": 93891,
+  "cosmos-kit": 11776
+}

@@ -3,49 +3,120 @@ const path = require('path');
 const fetch = require('isomorphic-fetch');
 
 const packages = [
-    'osmojs',
-    'chain-registry',
-    '@chain-registry/client',
-    'create-cosmos-app',
-    '@interchain-ui/react',
-    '@cosmology/telescope',
-    '@osmonauts/telescope',
-    '@cosmwasm/ts-codegen',
+
+    // cosmos-kit
     '@cosmos-kit/core',
     '@cosmos-kit/react',
-    'cosmos-kit'
+
+    // cosmwasm
+    '@cosmwasm/ts-codegen',
+
+    // interchain UI
+    '@interchain-ui/react',
+
+    // telescope
+    '@cosmology/telescope',
+    '@osmonauts/telescope',
+
+    // osmosis
+    '@osmonauts/math',
+    'osmojs',
+
+    // cosmology 
+    '@chain-registry/client',
+    '@chain-registry/types',
+    '@chain-registry/utils',
+    '@cosmology/cli',
+    'chain-registry',
+    'cosmology',
+    'cosmos-kit',
+    'create-cosmos-app',
+
+    // launchql
+    '@launchql/cli',
+    'libpg-query',
+    'pgsql-parser',
+
+    // protobufs
+    '@protobufs/cosmos',
+    '@protobufs/google',
+    '@protobufs/gogoproto',
+    '@protobufs/cosmwasm',
+    '@protobufs/tendermint',
+    '@protobufs/ibc',
+    '@protobufs/cosmos_proto',
+    '@protobufs/osmosis',
+    '@protobufs/secret',
+    '@protobufs/juno',
+    '@protobufs/akash',
+    '@protobufs/regen',
+    '@protobufs/pylons',
+    '@protobufs/stargaze',
+    '@protobufs/bcna',
+    '@protobufs/comdex',
+    '@protobufs/evmos',
+    '@protobufs/axelar',
+    '@protobufs/amino'
 ];
 
-// const period = 'last-month';
-const period = '2005-01-01:2024-01-19';
+
 
 const API_ENDPOINT = 'https://api.npmjs.org/downloads/point';
-const outputPathRelative = '../downloads.json';
+const totalDownloadsOutputPath = path.resolve(__dirname, '../total_downloads.json');
+const weeklyDownloadsOutputPath = path.resolve(__dirname, '../weekly_downloads.json');
 
-const outputPath = path.resolve(__dirname, outputPathRelative);
+// Function to format date as YYYY-MM-DD
+function formatDate(date) {
+    return date.toISOString().split('T')[0];
+}
 
-const fetchPromises = packages.map((packageName) => {
-    const API = `${API_ENDPOINT}/${period}/${packageName}`;
-    return fetch(API).then((response) => response.json());
-});
+// Function to calculate totalPeriod dynamically
+function getTotalPeriod() {
+    const startDate = '2020-03-31'; // Fixed start date
+    const endDate = formatDate(new Date()); // Today's date
+    return `${startDate}:${endDate}`;
+}
 
-const fetchDownloadCount = async () => {
+// Function to calculate weeklyPeriod dynamically
+function getWeeklyPeriod() {
+    const today = new Date();
+    const lastWeek = new Date(today.getFullYear(), today.getMonth(), today.getDate() - 7);
+    const startDate = formatDate(lastWeek);
+    const endDate = formatDate(today);
+    return `${startDate}:${endDate}`;
+}
+
+async function fetchDownloadCounts(packageName, period) {
+    const url = `${API_ENDPOINT}/${period}/${packageName}`;
     try {
-        const data = await Promise.all(fetchPromises);
+        const response = await fetch(url);
+        const data = await response.json();
+        return { packageName, downloads: data.downloads };
+    } catch (error) {
+        console.error('Error fetching data for', packageName, error);
+        return { packageName, downloads: 0 };
+    }
+}
 
-        const formattedData = data.reduce((acc, curr, index) => {
-            acc[packages[index]] = curr.downloads;
+async function saveDownloadCounts(period, outputPath) {
+    const fetchPromises = packages.map(packageName => fetchDownloadCounts(packageName, period));
+
+    try {
+        const results = await Promise.all(fetchPromises);
+        const formattedData = results.reduce((acc, { packageName, downloads }) => {
+            acc[packageName] = downloads;
             return acc;
         }, {});
 
-        const jsonData = JSON.stringify(formattedData, null, 2);
-
-        fs.writeFileSync(outputPath, jsonData);
-
+        fs.writeFileSync(outputPath, JSON.stringify(formattedData, null, 2));
         console.log('Downloads saved to:', outputPath);
     } catch (error) {
         console.error('Error:', error);
     }
-};
+}
 
-fetchDownloadCount();
+const totalPeriod = getTotalPeriod();
+const weeklyPeriod = getWeeklyPeriod();
+
+saveDownloadCounts(totalPeriod, totalDownloadsOutputPath);
+saveDownloadCounts(weeklyPeriod, weeklyDownloadsOutputPath);
