@@ -1,7 +1,8 @@
 {
   "cosmos-kit": {
-    "total": 5889,
+    "total": 6311,
     "packages": {
+      "cosmos-kit": 422,
       "@cosmos-kit/core": 4501,
       "@cosmos-kit/react": 1388
     }
@@ -12,17 +13,55 @@
       "@cosmwasm/ts-codegen": 3976
     }
   },
-  "interchain UI": {
+  "interchain-ui": {
     "total": 1580,
     "packages": {
       "@interchain-ui/react": 1580
     }
   },
   "telescope": {
-    "total": 2775,
+    "total": 14920,
     "packages": {
       "@cosmology/telescope": 1509,
-      "@osmonauts/telescope": 1266
+      "@cosmology/lcd": 2109,
+      "@cosmology/ast": 1436,
+      "@osmonauts/telescope": 1266,
+      "@osmonauts/lcd": 7309,
+      "@osmonauts/ast": 1291
+    }
+  },
+  "dydx": {
+    "total": 506,
+    "packages": {
+      "@dydxprotocol/v4-client-js": 506
+    }
+  },
+  "stargaze": {
+    "total": 120,
+    "packages": {
+      "stargazejs": 70,
+      "@stargaze-zone/chain": 7,
+      "@stargaze-zone/contracts": 5,
+      "stargaze-query": 38
+    }
+  },
+  "stride": {
+    "total": 479,
+    "packages": {
+      "stridejs": 479
+    }
+  },
+  "quicksilver": {
+    "total": 125,
+    "packages": {
+      "quicksilverjs": 125
+    }
+  },
+  "juno": {
+    "total": 317,
+    "packages": {
+      "juno-network": 282,
+      "@juno-network/assets": 35
     }
   },
   "osmosis": {
@@ -32,23 +71,35 @@
       "osmojs": 3428
     }
   },
-  "cosmology": {
-    "total": 26575,
+  "chain-registry": {
+    "total": 33433,
     "packages": {
       "@chain-registry/client": 1624,
       "@chain-registry/types": 13696,
+      "@chain-registry/keplr": 3218,
+      "@chain-registry/cosmostation": 2734,
+      "@chain-registry/osmosis": 911,
+      "@chain-registry/juno": 145,
+      "@chain-registry/assets": 376,
       "@chain-registry/utils": 3401,
+      "chain-registry": 7328
+    }
+  },
+  "cosmology": {
+    "total": 104,
+    "packages": {
       "@cosmology/cli": 7,
-      "chain-registry": 7328,
       "cosmology": 2,
-      "cosmos-kit": 422,
       "create-cosmos-app": 95
     }
   },
   "launchql": {
-    "total": 34824,
+    "total": null,
     "packages": {
+      "graphile-query": 1,
+      "pg-ast": 2,
       "@launchql/cli": 1,
+      "@launchql/server": 10,
       "libpg-query": 19124,
       "pgsql-parser": 15699
     }

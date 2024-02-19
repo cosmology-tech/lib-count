@@ -1,7 +1,8 @@
 {
   "cosmos-kit": {
-    "total": 320470,
+    "total": 332246,
     "packages": {
+      "cosmos-kit": 11776,
       "@cosmos-kit/core": 226579,
       "@cosmos-kit/react": 93891
     }
@@ -12,17 +13,55 @@
       "@cosmwasm/ts-codegen": 233393
     }
   },
-  "interchain UI": {
+  "interchain-ui": {
     "total": 40226,
     "packages": {
       "@interchain-ui/react": 40226
     }
   },
   "telescope": {
-    "total": 224652,
+    "total": 906974,
     "packages": {
       "@cosmology/telescope": 37061,
-      "@osmonauts/telescope": 187591
+      "@cosmology/lcd": 33147,
+      "@cosmology/ast": 36394,
+      "@osmonauts/telescope": 187591,
+      "@osmonauts/lcd": 434718,
+      "@osmonauts/ast": 178063
+    }
+  },
+  "dydx": {
+    "total": 9088,
+    "packages": {
+      "@dydxprotocol/v4-client-js": 9088
+    }
+  },
+  "stargaze": {
+    "total": 20812,
+    "packages": {
+      "stargazejs": 14232,
+      "@stargaze-zone/chain": 2865,
+      "@stargaze-zone/contracts": 2947,
+      "stargaze-query": 768
+    }
+  },
+  "stride": {
+    "total": 17001,
+    "packages": {
+      "stridejs": 17001
+    }
+  },
+  "quicksilver": {
+    "total": 3542,
+    "packages": {
+      "quicksilverjs": 3542
+    }
+  },
+  "juno": {
+    "total": 21928,
+    "packages": {
+      "juno-network": 16324,
+      "@juno-network/assets": 5604
     }
   },
   "osmosis": {
@@ -32,23 +71,35 @@
       "osmojs": 167708
     }
   },
-  "cosmology": {
-    "total": 988134,
+  "chain-registry": {
+    "total": 1229495,
     "packages": {
       "@chain-registry/client": 14241,
       "@chain-registry/types": 533762,
+      "@chain-registry/keplr": 137853,
+      "@chain-registry/cosmostation": 91415,
+      "@chain-registry/osmosis": 34432,
+      "@chain-registry/juno": 9969,
+      "@chain-registry/assets": 25023,
       "@chain-registry/utils": 101500,
+      "chain-registry": 281300
+    }
+  },
+  "cosmology": {
+    "total": 45555,
+    "packages": {
       "@cosmology/cli": 17421,
-      "chain-registry": 281300,
       "cosmology": 18048,
-      "cosmos-kit": 11776,
       "create-cosmos-app": 10086
     }
   },
   "launchql": {
-    "total": 4979364,
+    "total": null,
     "packages": {
+      "graphile-query": 259,
+      "pg-ast": 183,
       "@launchql/cli": 11723,
+      "@launchql/server": 4762,
       "libpg-query": 2611292,
       "pgsql-parser": 2356349
     }
