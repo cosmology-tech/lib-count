@@ -2,6 +2,8 @@
 "cosmos-kit","cosmos-kit",11776,422,1242
 "@cosmos-kit/core","cosmos-kit",226579,4501,13744
 "@cosmos-kit/react","cosmos-kit",93891,1388,4814
+"@cosmos-kit/react-lite","cosmos-kit",79712,1866,5583
+"@cosmos-kit/walletconnect","cosmos-kit",133701,3307,9499
 "@cosmwasm/ts-codegen","cosmwasm",233393,3976,12091
 "@interchain-ui/react","interchain-ui",40226,1580,5241
 "@cosmology/telescope","telescope",37061,1509,4016

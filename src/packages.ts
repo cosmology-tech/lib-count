@@ -5,7 +5,9 @@ export const packages: Packages = {
     "cosmos-kit": [
         'cosmos-kit',
         '@cosmos-kit/core',
-        '@cosmos-kit/react'
+        '@cosmos-kit/react',
+        '@cosmos-kit/react-lite',
+        '@cosmos-kit/walletconnect'
     ],
     "cosmwasm": ['@cosmwasm/ts-codegen'],
     "interchain-ui": [

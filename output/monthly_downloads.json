@@ -1,10 +1,12 @@
 {
   "cosmos-kit": {
-    "total": 19800,
+    "total": 34882,
     "packages": {
       "cosmos-kit": 1242,
       "@cosmos-kit/core": 13744,
-      "@cosmos-kit/react": 4814
+      "@cosmos-kit/react": 4814,
+      "@cosmos-kit/react-lite": 5583,
+      "@cosmos-kit/walletconnect": 9499
     }
   },
   "cosmwasm": {
