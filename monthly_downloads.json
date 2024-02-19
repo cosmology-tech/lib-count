@@ -1,0 +1,80 @@
+{
+  "cosmos-kit": {
+    "total": 18558,
+    "packages": {
+      "@cosmos-kit/core": 13744,
+      "@cosmos-kit/react": 4814
+    }
+  },
+  "cosmwasm": {
+    "total": 12091,
+    "packages": {
+      "@cosmwasm/ts-codegen": 12091
+    }
+  },
+  "interchain UI": {
+    "total": 5241,
+    "packages": {
+      "@interchain-ui/react": 5241
+    }
+  },
+  "telescope": {
+    "total": 8753,
+    "packages": {
+      "@cosmology/telescope": 4016,
+      "@osmonauts/telescope": 4737
+    }
+  },
+  "osmosis": {
+    "total": 10153,
+    "packages": {
+      "@osmonauts/math": 666,
+      "osmojs": 9487
+    }
+  },
+  "cosmology": {
+    "total": 72588,
+    "packages": {
+      "@chain-registry/client": 4715,
+      "@chain-registry/types": 37785,
+      "@chain-registry/utils": 9234,
+      "@cosmology/cli": 14,
+      "chain-registry": 19454,
+      "cosmology": 8,
+      "cosmos-kit": 1242,
+      "create-cosmos-app": 136
+    }
+  },
+  "launchql": {
+    "total": 86098,
+    "packages": {
+      "@launchql/cli": 2,
+      "libpg-query": 47186,
+      "pgsql-parser": 38910
+    }
+  },
+  "protobufs": {
+    "total": 36946,
+    "packages": {
+      "@protobufs/cosmos": 5842,
+      "@protobufs/google": 6667,
+      "@protobufs/gogoproto": 6647,
+      "@protobufs/cosmwasm": 1736,
+      "@protobufs/tendermint": 5874,
+      "@protobufs/ibc": 1764,
+      "@protobufs/cosmos_proto": 6379,
+      "@protobufs/osmosis": 182,
+      "@protobufs/secret": 2,
+      "@protobufs/juno": 24,
+      "@protobufs/akash": 6,
+      "@protobufs/regen": 13,
+      "@protobufs/pylons": 2,
+      "@protobufs/stargaze": 8,
+      "@protobufs/bcna": 6,
+      "@protobufs/comdex": 10,
+      "@protobufs/evmos": 5,
+      "@protobufs/axelar": 2,
+      "@protobufs/amino": 1777
+    }
+  }
+}
