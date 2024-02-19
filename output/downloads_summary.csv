@@ -33,6 +33,7 @@
 "@chain-registry/utils","chain-registry",101500,3401,9234
 "chain-registry","chain-registry",281300,7328,19454
 "@cosmology/cli","cosmology",17421,7,14
+"@cosmology/core","cosmology",24422,394,1000
 "cosmology","cosmology",18048,2,8
 "create-cosmos-app","cosmology",10086,95,136
 "graphile-query","launchql",259,1,1

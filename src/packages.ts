@@ -48,6 +48,7 @@ export const packages: Packages = {
     ],
     "cosmology": [
         '@cosmology/cli',
+        '@cosmology/core',
         'cosmology',
         'create-cosmos-app'
     ],

@@ -88,9 +88,10 @@
     }
   },
   "cosmology": {
-    "total": 104,
+    "total": 498,
     "packages": {
       "@cosmology/cli": 7,
+      "@cosmology/core": 394,
       "cosmology": 2,
       "create-cosmos-app": 95
     }
