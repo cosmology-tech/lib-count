@@ -36,8 +36,8 @@
 "cosmology","cosmology",18048,2,8
 "create-cosmos-app","cosmology",10086,95,136
 "graphile-query","launchql",259,1,1
-"graphile-settings","launchql",,,
-"graphile-testing","launchql",,,
+"@launchql/graphile-settings","launchql",1915,4,5
+"@launchql/graphile-testing","launchql",,,
 "pg-ast","launchql",183,2,4
 "@launchql/cli","launchql",11723,1,2
 "@launchql/server","launchql",4762,10,11

@@ -99,6 +99,7 @@
     "total": null,
     "packages": {
       "graphile-query": 1,
+      "@launchql/graphile-settings": 4,
       "pg-ast": 2,
       "@launchql/cli": 1,
       "@launchql/server": 10,
