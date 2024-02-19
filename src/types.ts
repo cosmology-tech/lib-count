@@ -17,3 +17,13 @@ export type DownloadsData = {
     [categoryName: string]: CategoryData;
 };
 
+// merged
+
+export type MergedPackageData = {
+    [packageName: string]: {
+        category: string;
+        total: number;
+        weekly: number;
+        monthly: number;
+    };
+};
