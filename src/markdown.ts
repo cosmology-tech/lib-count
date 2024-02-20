@@ -22,11 +22,6 @@ export function generateMarkdownTable(data: DownloadsData) {
     return markdown;
 }
 
-export function saveMarkdown(outputPath, markdownContent) {
-    fs.writeFileSync(outputPath, markdownContent, 'utf8');
-    console.log(`Markdown saved to: ${outputPath}`);
-}
-
 
 function formatNumber(number) {
     return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");

@@ -54,8 +54,8 @@ export const packages: Packages = {
     ],
     "launchql": [
         'graphile-query',
-        '@launchql/graphile-settings',
-        '@launchql/graphile-testing',
+        // '@launchql/graphile-settings',
+        // '@launchql/graphile-testing',
         'pg-ast',
         '@launchql/cli',
         '@launchql/server',

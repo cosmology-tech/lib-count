@@ -97,10 +97,9 @@
     }
   },
   "launchql": {
-    "total": null,
+    "total": 86114,
     "packages": {
       "graphile-query": 1,
-      "@launchql/graphile-settings": 5,
       "pg-ast": 4,
       "@launchql/cli": 2,
       "@launchql/server": 11,

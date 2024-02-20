@@ -25,5 +25,6 @@ export type MergedPackageData = {
         total: number;
         weekly: number;
         monthly: number;
+        timestamp: number;
     };
 };

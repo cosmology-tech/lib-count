@@ -1,4 +1,7 @@
+import { mkdirp } from "mkdirp";
+import { generateMarkdownTable } from "./markdown";
 import { DownloadsData } from "./types";
+import { resolve, dirname } from 'path';
 
 const fs = require('fs');
 const fetch = require('isomorphic-fetch');
@@ -13,6 +16,10 @@ export function getTotalPeriod() {
     const startDate = '2020-03-31';
     const endDate = formatDate(new Date());
     return `${startDate}:${endDate}`;
+}
+
+export function getNow() {
+    return formatDate(new Date());
 }
 
 export function getWeeklyPeriod() {
@@ -45,9 +52,10 @@ export async function fetchDownloadCounts(packageName, period) {
     }
 }
 
-export async function saveDownloadCountsByCategory
-    (packages, period, outputPath): Promise<DownloadsData> {
+export async function saveDownloadCountsByCategoryForPeriod
+    (packages, periodFunction, periodName, basePath): Promise<DownloadsData> {
     const categoryData = {};
+    const period = periodFunction();
 
     for (const category of Object.keys(packages)) {
         console.log(`Fetching download counts for ${category}...`);
@@ -71,9 +79,20 @@ export async function saveDownloadCountsByCategory
         }
     }
 
+    const outputPath = resolve(basePath, periodName + '_downloads.json');
+    const outputPathDated = resolve(basePath, `historical/${periodName}_downloads_${getNow()}.json`);
+    mkdirp.sync(dirname(outputPathDated));
     // Write all categories data to the file at once
     fs.writeFileSync(outputPath, JSON.stringify(categoryData, null, 2));
+    fs.writeFileSync(outputPathDated, JSON.stringify(categoryData, null, 2));
     console.log(`Download counts saved to:`, outputPath);
+    console.log(`Download counts saved to:`, outputPathDated);
+
+    const markdownContent = generateMarkdownTable(categoryData);
+    const markdownFilePath = resolve(basePath, `${periodName}_downloads.md`);
+    fs.writeFileSync(markdownFilePath, markdownContent, 'utf8');
+    console.log(`Markdown saved to: ${markdownFilePath}`);
+
 
     return categoryData;
 }
