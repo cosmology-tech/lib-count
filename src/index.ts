@@ -13,7 +13,7 @@ import {
     getNow,
 } from "./downloads";
 import { mkdirp } from 'mkdirp';
-import { generateMarkdownTable2 } from './markdown2';
+import { generateReadme } from './markdown2';
 
 const main = async () => {
     const basePath = resolve(__dirname, '../output');
@@ -45,8 +45,8 @@ const main = async () => {
     const csvOutputPathDated = resolve(basePath, `historical/downloads_summary_${getNow()}.csv`);
     mkdirp.sync(dirname(csvOutputPathDated));
 
-    const markdownFilePath = resolve(basePath, 'downloads_summary.md');
-    const markdown = generateMarkdownTable2(mergedData);
+    const markdownFilePath = resolve(__dirname, '../README.md');
+    const markdown = generateReadme(mergedData);
     writeFileSync(markdownFilePath, markdown);
 
     generatePackageDownloadsCSV(mergedData, csvOutputPath);
