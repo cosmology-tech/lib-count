@@ -14,6 +14,7 @@ This repository contains detailed download statistics for all Web, Inc's softwar
 
 ## Table of Contents
 - [cosmos-kit](#cosmos-kit)
+- [cosmos-kit-wallets](#cosmos-kit-wallets)
 - [cosmwasm](#cosmwasm)
 - [interchain-ui](#interchain-ui)
 - [telescope](#telescope)
@@ -38,6 +39,55 @@ This repository contains detailed download statistics for all Web, Inc's softwar
 | [@cosmos-kit/react](https://www.npmjs.com/package/@cosmos-kit/react) | 93,886 | 4,814 | 1,305 |
 | [@cosmos-kit/react-lite](https://www.npmjs.com/package/@cosmos-kit/react-lite) | 79,712 | 5,583 | 1,749 |
 | [@cosmos-kit/walletconnect](https://www.npmjs.com/package/@cosmos-kit/walletconnect) | 133,701 | 9,499 | 3,114 |
+
+### cosmos-kit-wallets
+
+| Name | Total | Monthly | Weekly |
+| ------- | ------ | ------- | ----- |
+| *Total* | 1,710,317 | 116,496 | 38,406 |
+| [@cosmos-kit/frontier-extension](https://www.npmjs.com/package/@cosmos-kit/frontier-extension) | 24,473 | 1,515 | 506 |
+| [@cosmos-kit/ledger](https://www.npmjs.com/package/@cosmos-kit/ledger) | 14,861 | 1,411 | 568 |
+| [@cosmos-kit/cosmos-extension-metamask](https://www.npmjs.com/package/@cosmos-kit/cosmos-extension-metamask) | 7,474 | 1,334 | 476 |
+| [@cosmos-kit/fin](https://www.npmjs.com/package/@cosmos-kit/fin) | 13,281 | 1,112 | 437 |
+| [@cosmos-kit/coin98-extension](https://www.npmjs.com/package/@cosmos-kit/coin98-extension) | 19,446 | 1,344 | 480 |
+| [@cosmos-kit/okxwallet-extension](https://www.npmjs.com/package/@cosmos-kit/okxwallet-extension) | 32,033 | 2,818 | 1,035 |
+| [@cosmos-kit/trust-mobile](https://www.npmjs.com/package/@cosmos-kit/trust-mobile) | 29,773 | 1,552 | 500 |
+| [@cosmos-kit/shell](https://www.npmjs.com/package/@cosmos-kit/shell) | 15,013 | 1,304 | 502 |
+| [@cosmos-kit/leap-capsule-social-login](https://www.npmjs.com/package/@cosmos-kit/leap-capsule-social-login) | 228 | 85 | 15 |
+| [@cosmos-kit/cosmostation-extension](https://www.npmjs.com/package/@cosmos-kit/cosmostation-extension) | 94,251 | 5,321 | 1,691 |
+| [@cosmos-kit/vectis](https://www.npmjs.com/package/@cosmos-kit/vectis) | 33,646 | 1,698 | 516 |
+| [@cosmos-kit/fin-extension](https://www.npmjs.com/package/@cosmos-kit/fin-extension) | 16,805 | 1,382 | 511 |
+| [@cosmos-kit/ninji](https://www.npmjs.com/package/@cosmos-kit/ninji) | 1,821 | 317 | 92 |
+| [@cosmos-kit/station-extension](https://www.npmjs.com/package/@cosmos-kit/station-extension) | 26,192 | 3,243 | 1,128 |
+| [@cosmos-kit/coin98](https://www.npmjs.com/package/@cosmos-kit/coin98) | 19,729 | 1,536 | 484 |
+| [@cosmos-kit/leap-extension](https://www.npmjs.com/package/@cosmos-kit/leap-extension) | 117,012 | 7,822 | 2,498 |
+| [@cosmos-kit/exodus](https://www.npmjs.com/package/@cosmos-kit/exodus) | 14,224 | 1,220 | 479 |
+| [@cosmos-kit/trust-extension](https://www.npmjs.com/package/@cosmos-kit/trust-extension) | 20,834 | 765 | 302 |
+| [@cosmos-kit/leap](https://www.npmjs.com/package/@cosmos-kit/leap) | 120,124 | 7,316 | 2,250 |
+| [@cosmos-kit/xdefi](https://www.npmjs.com/package/@cosmos-kit/xdefi) | 37,529 | 2,828 | 1,019 |
+| [@cosmos-kit/web3auth](https://www.npmjs.com/package/@cosmos-kit/web3auth) | 14,567 | 430 | 121 |
+| [@cosmos-kit/initia-extension](https://www.npmjs.com/package/@cosmos-kit/initia-extension) | 1,469 | 228 | 58 |
+| [@cosmos-kit/cosmostation](https://www.npmjs.com/package/@cosmos-kit/cosmostation) | 102,071 | 4,843 | 1,476 |
+| [@cosmos-kit/shell-extension](https://www.npmjs.com/package/@cosmos-kit/shell-extension) | 15,475 | 1,311 | 498 |
+| [@cosmos-kit/cosmostation-mobile](https://www.npmjs.com/package/@cosmos-kit/cosmostation-mobile) | 88,804 | 4,734 | 1,501 |
+| [@cosmos-kit/vectis-extension](https://www.npmjs.com/package/@cosmos-kit/vectis-extension) | 32,171 | 1,683 | 551 |
+| [@cosmos-kit/station](https://www.npmjs.com/package/@cosmos-kit/station) | 26,102 | 3,340 | 1,097 |
+| [@cosmos-kit/exodus-extension](https://www.npmjs.com/package/@cosmos-kit/exodus-extension) | 14,587 | 1,223 | 476 |
+| [@cosmos-kit/leap-mobile](https://www.npmjs.com/package/@cosmos-kit/leap-mobile) | 84,547 | 6,895 | 2,233 |
+| [@cosmos-kit/initia](https://www.npmjs.com/package/@cosmos-kit/initia) | 1,390 | 209 | 58 |
+| [@cosmos-kit/frontier](https://www.npmjs.com/package/@cosmos-kit/frontier) | 23,050 | 1,351 | 508 |
+| [@cosmos-kit/trust](https://www.npmjs.com/package/@cosmos-kit/trust) | 31,633 | 1,891 | 507 |
+| [@cosmos-kit/compass](https://www.npmjs.com/package/@cosmos-kit/compass) | 22,176 | 1,620 | 626 |
+| [@cosmos-kit/keplr-mobile](https://www.npmjs.com/package/@cosmos-kit/keplr-mobile) | 117,440 | 7,699 | 2,378 |
+| [@cosmos-kit/keplr-extension](https://www.npmjs.com/package/@cosmos-kit/keplr-extension) | 122,430 | 8,070 | 2,581 |
+| [@cosmos-kit/ninji-extension](https://www.npmjs.com/package/@cosmos-kit/ninji-extension) | 1,994 | 326 | 92 |
+| [@cosmos-kit/compass-extension](https://www.npmjs.com/package/@cosmos-kit/compass-extension) | 26,049 | 1,834 | 696 |
+| [@cosmos-kit/xdefi-extension](https://www.npmjs.com/package/@cosmos-kit/xdefi-extension) | 54,118 | 3,524 | 1,177 |
+| [@cosmos-kit/okxwallet](https://www.npmjs.com/package/@cosmos-kit/okxwallet) | 27,503 | 1,910 | 629 |
+| [@cosmos-kit/omni](https://www.npmjs.com/package/@cosmos-kit/omni) | 28,293 | 1,525 | 499 |
+| [@cosmos-kit/keplr](https://www.npmjs.com/package/@cosmos-kit/keplr) | 140,481 | 7,435 | 2,366 |
+| [@cosmos-kit/omni-mobile](https://www.npmjs.com/package/@cosmos-kit/omni-mobile) | 29,933 | 1,535 | 497 |
+| [@cosmos-kit/leap-metamask-cosmos-snap](https://www.npmjs.com/package/@cosmos-kit/leap-metamask-cosmos-snap) | 45,285 | 6,957 | 2,292 |
 
 ### cosmwasm
 

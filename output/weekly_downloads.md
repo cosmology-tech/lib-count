@@ -9,6 +9,55 @@ Total Downloads: 10,749
 | @cosmos-kit/react-lite | 1,749 |
 | @cosmos-kit/walletconnect | 3,114 |
 
+### cosmos-kit-wallets
+Total Downloads: 38,406
+
+| Package | Downloads |
+| ------- | --------- |
+| @cosmos-kit/frontier-extension | 506 |
+| @cosmos-kit/ledger | 568 |
+| @cosmos-kit/cosmos-extension-metamask | 476 |
+| @cosmos-kit/fin | 437 |
+| @cosmos-kit/coin98-extension | 480 |
+| @cosmos-kit/okxwallet-extension | 1,035 |
+| @cosmos-kit/trust-mobile | 500 |
+| @cosmos-kit/shell | 502 |
+| @cosmos-kit/leap-capsule-social-login | 15 |
+| @cosmos-kit/cosmostation-extension | 1,691 |
+| @cosmos-kit/vectis | 516 |
+| @cosmos-kit/fin-extension | 511 |
+| @cosmos-kit/ninji | 92 |
+| @cosmos-kit/station-extension | 1,128 |
+| @cosmos-kit/coin98 | 484 |
+| @cosmos-kit/leap-extension | 2,498 |
+| @cosmos-kit/exodus | 479 |
+| @cosmos-kit/trust-extension | 302 |
+| @cosmos-kit/leap | 2,250 |
+| @cosmos-kit/xdefi | 1,019 |
+| @cosmos-kit/web3auth | 121 |
+| @cosmos-kit/initia-extension | 58 |
+| @cosmos-kit/cosmostation | 1,476 |
+| @cosmos-kit/shell-extension | 498 |
+| @cosmos-kit/cosmostation-mobile | 1,501 |
+| @cosmos-kit/vectis-extension | 551 |
+| @cosmos-kit/station | 1,097 |
+| @cosmos-kit/exodus-extension | 476 |
+| @cosmos-kit/leap-mobile | 2,233 |
+| @cosmos-kit/initia | 58 |
+| @cosmos-kit/frontier | 508 |
+| @cosmos-kit/trust | 507 |
+| @cosmos-kit/compass | 626 |
+| @cosmos-kit/keplr-mobile | 2,378 |
+| @cosmos-kit/keplr-extension | 2,581 |
+| @cosmos-kit/ninji-extension | 92 |
+| @cosmos-kit/compass-extension | 696 |
+| @cosmos-kit/xdefi-extension | 1,177 |
+| @cosmos-kit/okxwallet | 629 |
+| @cosmos-kit/omni | 499 |
+| @cosmos-kit/keplr | 2,366 |
+| @cosmos-kit/omni-mobile | 497 |
+| @cosmos-kit/leap-metamask-cosmos-snap | 2,292 |
+
 ### cosmwasm
 Total Downloads: 3,769
 
