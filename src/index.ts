@@ -1,5 +1,6 @@
 import { resolve, dirname } from 'path';
 import { packages } from "./packages";
+import { writeFileSync } from "fs";
 import {
     generatePackageDownloadsCSV,
     mergeDownloadsData // Make sure this is exported from wherever it's defined
@@ -12,6 +13,7 @@ import {
     getNow,
 } from "./downloads";
 import { mkdirp } from 'mkdirp';
+import { generateMarkdownTable2 } from './markdown2';
 
 const main = async () => {
     const basePath = resolve(__dirname, '../output');
@@ -42,6 +44,11 @@ const main = async () => {
     const csvOutputPath = resolve(basePath, 'downloads_summary.csv');
     const csvOutputPathDated = resolve(basePath, `historical/downloads_summary_${getNow()}.csv`);
     mkdirp.sync(dirname(csvOutputPathDated));
+
+    const markdownFilePath = resolve(basePath, 'downloads_summary.md');
+    const markdown = generateMarkdownTable2(mergedData);
+    writeFileSync(markdownFilePath, markdown);
+
     generatePackageDownloadsCSV(mergedData, csvOutputPath);
     generatePackageDownloadsCSV(mergedData, csvOutputPathDated);
 };

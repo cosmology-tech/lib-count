@@ -9,6 +9,7 @@ This repository contains detailed download statistics for all Web, Inc's softwar
 ## Contents
 
 - [Downloads Summary CSV](output/downloads_summary.csv): A comprehensive CSV file containing summary statistics for each software product, including total downloads, monthly downloads, and trends. The data reflects the most recent snapshot, with intervals ending at the snapshot's current time.
+- [Downloads Summary README](output/downloads_summary.md): A comprehensive Markdown file containing summary statistics for each software product, including total downloads, monthly downloads, and trends. The data reflects the most recent snapshot, with intervals ending at the snapshot's current time.
 - [Total Downloads Markdown](output/total_downloads.md): A Markdown file providing an overview of the total download counts across all Web, Inc's software products.
 - [Weekly Downloads Markdown](output/weekly_downloads.md): A Markdown file detailing weekly download statistics, with each interval ending at the current time of the snapshot.
 - [Monthly Downloads Markdown](output/monthly_downloads.md): A Markdown file providing monthly download statistics for a more extended trend analysis, also ending at the current time of the snapshot.
