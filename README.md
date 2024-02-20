@@ -16,7 +16,3 @@ This repository contains detailed download statistics for all Web, Inc's softwar
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-
-Thank you for visiting the Web, Inc's Software Download Count Repository. Your support helps us improve our software and serve our users better.
