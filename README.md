@@ -10,7 +10,7 @@ This repository contains detailed download statistics for all Web, Inc's softwar
 ## CSV files
 
 - [Downloads Summary CSV](output/downloads_summary.csv): A comprehensive CSV file containing summary statistics for each software product, including total downloads, monthly downloads, and trends. The data reflects the most recent snapshot, with intervals ending at the snapshot's current time.
-- [Historyical Snapshots](output/historical): History of the summary CSV files for each snapshot.
+- [Historical Snapshots](output/historical): History of the summary CSV files for each snapshot.
 
 ## Table of Contents
 - [cosmos-kit](#cosmos-kit)
