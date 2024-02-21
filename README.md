@@ -1,6 +1,9 @@
-# Web, Inc's Software Download Count Repository
+# Web, Inc
+### Software Download Count Repository
 
-![webincubator](https://github.com/cosmology-tech/lib-count/assets/545047/36fa4c5e-13c8-4e3c-822d-2a337a646729)
+<p align="center">
+  <img src="https://github.com/cosmology-tech/lib-count/assets/545047/36fa4c5e-13c8-4e3c-822d-2a337a646729" alt="webincubator" width="120">
+</p>
 
 Welcome to the official repository for tracking the download counts of Web, Inc's software. This repository provides detailed statistics on the downloads, helping users and developers gain insights into the usage and popularity of our products.
 
