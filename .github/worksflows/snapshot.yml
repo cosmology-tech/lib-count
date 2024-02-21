@@ -1,0 +1,25 @@
+name: Publish
+
+on:
+  workflow_dispatch:
+
+jobs:
+  publish-npm:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: 'true'
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16.14.0
+          registry-url: https://registry.npmjs.org/
+      - run: |
+          yarn
+          yarn dev
+          git config --global user.email "developers@cosmology.zone"
+          git config --global user.name "Cosmology"
+          git add .
+          git commit -am "update"
+        env:
+          GH_TOKEN: ${{ secrets.ADMIN_GITHUB_TOKEN }}
