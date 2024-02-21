@@ -30,7 +30,7 @@ This repository contains detailed download statistics for all Web, Inc's softwar
 
 | Name | Total | Monthly | Weekly |
 | ------- | ------ | ------- | ----- |
-| *Total* | 10,766,701 | 427,793 | 112,582 |
+| *Total* | 15,727,176 | 502,624 | 134,434 |
 ## Table of Contents
 - [cosmos-kit](#cosmos-kit)
 - [cosmos-kit-wallets](#cosmos-kit-wallets)
@@ -210,13 +210,15 @@ This repository contains detailed download statistics for all Web, Inc's softwar
 
 | Name | Total | Monthly | Weekly |
 | ------- | ------ | ------- | ----- |
-| *Total* | 4,983,311 | 81,966 | 23,965 |
+| *Total* | 9,943,786 | 156,797 | 45,817 |
 | [graphile-query](https://www.npmjs.com/package/graphile-query) | 259 | 1 | 0 |
 | [pg-ast](https://www.npmjs.com/package/pg-ast) | 185 | 6 | 5 |
 | [@launchql/cli](https://www.npmjs.com/package/@launchql/cli) | 11,724 | 2 | 1 |
 | [@launchql/server](https://www.npmjs.com/package/@launchql/server) | 4,764 | 13 | 9 |
 | [libpg-query](https://www.npmjs.com/package/libpg-query) | 2,610,439 | 45,135 | 13,230 |
 | [pgsql-parser](https://www.npmjs.com/package/pgsql-parser) | 2,355,940 | 36,809 | 10,720 |
+| [pgsql-enums](https://www.npmjs.com/package/pgsql-enums) | 2,608,847 | 37,410 | 10,918 |
+| [pgsql-deparser](https://www.npmjs.com/package/pgsql-deparser) | 2,351,628 | 37,421 | 10,934 |
 
 ### protobufs
 

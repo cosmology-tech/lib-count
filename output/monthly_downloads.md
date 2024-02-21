@@ -157,7 +157,7 @@ Total Downloads: 1,159
 | create-cosmos-app | 136 |
 
 ### launchql
-Total Downloads: 81,966
+Total Downloads: 156,797
 
 | Package | Downloads |
 | ------- | --------- |
@@ -167,6 +167,8 @@ Total Downloads: 81,966
 | @launchql/server | 13 |
 | libpg-query | 45,135 |
 | pgsql-parser | 36,809 |
+| pgsql-enums | 37,410 |
+| pgsql-deparser | 37,421 |
 
 ### protobufs
 Total Downloads: 36,059

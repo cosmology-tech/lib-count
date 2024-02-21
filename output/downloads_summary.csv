@@ -85,6 +85,8 @@
 "@launchql/server","launchql",4764,9,13,"2024-02-21"
 "libpg-query","launchql",2610439,13230,45135,"2024-02-21"
 "pgsql-parser","launchql",2355940,10720,36809,"2024-02-21"
+"pgsql-enums","launchql",2608847,10918,37410,"2024-02-21"
+"pgsql-deparser","launchql",2351628,10934,37421,"2024-02-21"
 "@protobufs/cosmos","protobufs",135337,1280,5652,"2024-02-21"
 "@protobufs/google","protobufs",140080,1457,6422,"2024-02-21"
 "@protobufs/gogoproto","protobufs",139937,1453,6403,"2024-02-21"
