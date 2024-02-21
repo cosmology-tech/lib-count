@@ -2,7 +2,7 @@
 # Web, Inc.
 
 <p align="center">
-    <img src="https://github.com/cosmology-tech/lib-count/assets/545047/36fa4c5e-13c8-4e3c-822d-2a337a646729" alt="webincubator" width="120">
+    <img src="https://github.com/cosmology-tech/lib-count/assets/545047/8b9b2996-a9cc-48c8-9bce-311dbd5b55a9" alt="webincubator" width="120">
 </p>
 
 ### Software Download Count Repository
