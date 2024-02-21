@@ -21,5 +21,6 @@ jobs:
           git config --global user.name "Cosmology"
           git add .
           git commit -am "update"
+          git push
         env:
           GH_TOKEN: ${{ secrets.ADMIN_GITHUB_TOKEN }}
