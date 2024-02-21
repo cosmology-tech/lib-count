@@ -1,4 +1,4 @@
-# Web, Inc
+# Web, Inc.
 ### Software Download Count Repository
 
 <p align="center">
