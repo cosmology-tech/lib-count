@@ -12,8 +12,8 @@ Welcome to the official repository for tracking the download counts of Web, Inc'
 **the Web:** At the heart of our mission is the synergy between the mature, user-friendly ecosystem of Web2 and the decentralized, secure potential of Web3. We're here to bridge this gap, unlocking real-world applications and the full potential of technology, making the web whole again.
 
 ### Our Projects:
-- **[Cosmology™](https://github.com/cosmology-tech):** Build in the interchain.
-- **[LaunchQL™](https://github.com/launchql):** Simplify database management.
+- **[Cosmology](https://github.com/cosmology-tech):** Build in the interchain.
+- **[LaunchQL](https://github.com/launchql):** Simplify database management.
 
 Join us in shaping the future of the web.
 
