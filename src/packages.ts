@@ -105,7 +105,9 @@ export const packages: Packages = {
         '@launchql/cli',
         '@launchql/server',
         'libpg-query',
-        'pgsql-parser'
+        'pgsql-parser',
+        'pgsql-enums',
+        'pgsql-deparser'
     ],
     "protobufs": [
         '@protobufs/cosmos', '@protobufs/google', '@protobufs/gogoproto', '@protobufs/cosmwasm',
