@@ -145,14 +145,16 @@
     }
   },
   "launchql": {
-    "total": 81966,
+    "total": 156797,
     "packages": {
       "graphile-query": 1,
       "pg-ast": 6,
       "@launchql/cli": 2,
       "@launchql/server": 13,
       "libpg-query": 45135,
-      "pgsql-parser": 36809
+      "pgsql-parser": 36809,
+      "pgsql-enums": 37410,
+      "pgsql-deparser": 37421
     }
   },
   "protobufs": {
