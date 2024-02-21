@@ -8,7 +8,7 @@ export function generateReadme(data: MergedPackageData) {
 # Web, Inc.
 
 <p align="center">
-    <img src="https://github.com/cosmology-tech/lib-count/assets/545047/8b9b2996-a9cc-48c8-9bce-311dbd5b55a9" alt="webincubator" width="120">
+    <img src="https://github.com/cosmology-tech/lib-count/assets/545047/c379f2e6-7fd8-436c-bd8d-5e3a3837489e" alt="webincubator" width="120">
 </p>
 
 ### Software Download Count Repository
