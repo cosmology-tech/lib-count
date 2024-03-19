@@ -1,173 +1,173 @@
 {
   "cosmos-kit": {
-    "total": 593969,
+    "total": 595648,
     "packages": {
-      "cosmos-kit": 13317,
-      "@cosmos-kit/core": 247874,
-      "@cosmos-kit/react": 98193,
-      "@cosmos-kit/react-lite": 87015,
-      "@cosmos-kit/walletconnect": 147570
+      "cosmos-kit": 13383,
+      "@cosmos-kit/core": 248610,
+      "@cosmos-kit/react": 98332,
+      "@cosmos-kit/react-lite": 87269,
+      "@cosmos-kit/walletconnect": 148054
     }
   },
   "cosmos-kit-wallets": {
-    "total": 1917014,
+    "total": 1924955,
     "packages": {
-      "@cosmos-kit/frontier-extension": 26890,
-      "@cosmos-kit/ledger": 17540,
-      "@cosmos-kit/cosmos-extension-metamask": 10065,
-      "@cosmos-kit/fin": 15275,
-      "@cosmos-kit/coin98-extension": 22212,
-      "@cosmos-kit/okxwallet-extension": 38664,
-      "@cosmos-kit/trust-mobile": 32307,
-      "@cosmos-kit/shell": 17572,
+      "@cosmos-kit/frontier-extension": 26989,
+      "@cosmos-kit/ledger": 17646,
+      "@cosmos-kit/cosmos-extension-metamask": 10124,
+      "@cosmos-kit/fin": 15374,
+      "@cosmos-kit/coin98-extension": 22321,
+      "@cosmos-kit/okxwallet-extension": 38941,
+      "@cosmos-kit/trust-mobile": 32422,
+      "@cosmos-kit/shell": 17676,
       "@cosmos-kit/leap-capsule-social-login": 263,
-      "@cosmos-kit/cosmostation-extension": 103251,
-      "@cosmos-kit/vectis": 36343,
-      "@cosmos-kit/fin-extension": 19027,
-      "@cosmos-kit/ninji": 2429,
-      "@cosmos-kit/station-extension": 32996,
-      "@cosmos-kit/coin98": 22490,
-      "@cosmos-kit/leap-extension": 129498,
-      "@cosmos-kit/exodus": 16564,
-      "@cosmos-kit/trust-extension": 22599,
-      "@cosmos-kit/leap": 132021,
-      "@cosmos-kit/xdefi": 44208,
-      "@cosmos-kit/web3auth": 15844,
-      "@cosmos-kit/initia-extension": 1652,
-      "@cosmos-kit/cosmostation": 110508,
-      "@cosmos-kit/shell-extension": 18023,
-      "@cosmos-kit/cosmostation-mobile": 97141,
-      "@cosmos-kit/vectis-extension": 34923,
-      "@cosmos-kit/station": 32869,
-      "@cosmos-kit/exodus-extension": 16902,
-      "@cosmos-kit/leap-mobile": 96279,
-      "@cosmos-kit/initia": 1576,
-      "@cosmos-kit/frontier": 25477,
-      "@cosmos-kit/trust": 34225,
-      "@cosmos-kit/compass": 25041,
-      "@cosmos-kit/keplr-mobile": 130035,
-      "@cosmos-kit/keplr-extension": 135689,
-      "@cosmos-kit/ninji-extension": 2601,
-      "@cosmos-kit/compass-extension": 29182,
-      "@cosmos-kit/xdefi-extension": 61278,
-      "@cosmos-kit/okxwallet": 32651,
-      "@cosmos-kit/omni": 30832,
-      "@cosmos-kit/keplr": 152594,
-      "@cosmos-kit/omni-mobile": 32476,
-      "@cosmos-kit/leap-metamask-cosmos-snap": 57002
+      "@cosmos-kit/cosmostation-extension": 103591,
+      "@cosmos-kit/vectis": 36459,
+      "@cosmos-kit/fin-extension": 19130,
+      "@cosmos-kit/ninji": 2471,
+      "@cosmos-kit/station-extension": 33290,
+      "@cosmos-kit/coin98": 22599,
+      "@cosmos-kit/leap-extension": 129931,
+      "@cosmos-kit/exodus": 16663,
+      "@cosmos-kit/trust-extension": 22716,
+      "@cosmos-kit/leap": 132415,
+      "@cosmos-kit/xdefi": 44490,
+      "@cosmos-kit/web3auth": 15881,
+      "@cosmos-kit/initia-extension": 1656,
+      "@cosmos-kit/cosmostation": 110844,
+      "@cosmos-kit/shell-extension": 18128,
+      "@cosmos-kit/cosmostation-mobile": 97467,
+      "@cosmos-kit/vectis-extension": 35039,
+      "@cosmos-kit/station": 33161,
+      "@cosmos-kit/exodus-extension": 17002,
+      "@cosmos-kit/leap-mobile": 96669,
+      "@cosmos-kit/initia": 1580,
+      "@cosmos-kit/frontier": 25578,
+      "@cosmos-kit/trust": 34339,
+      "@cosmos-kit/compass": 25145,
+      "@cosmos-kit/keplr-mobile": 130491,
+      "@cosmos-kit/keplr-extension": 136137,
+      "@cosmos-kit/ninji-extension": 2644,
+      "@cosmos-kit/compass-extension": 29302,
+      "@cosmos-kit/xdefi-extension": 61568,
+      "@cosmos-kit/okxwallet": 32861,
+      "@cosmos-kit/omni": 30941,
+      "@cosmos-kit/keplr": 153022,
+      "@cosmos-kit/omni-mobile": 32592,
+      "@cosmos-kit/leap-metamask-cosmos-snap": 57397
     }
   },
   "cosmwasm": {
-    "total": 253324,
+    "total": 254586,
     "packages": {
-      "@cosmwasm/ts-codegen": 253324
+      "@cosmwasm/ts-codegen": 254586
     }
   },
   "interchain-ui": {
-    "total": 45882,
+    "total": 46033,
     "packages": {
-      "@interchain-ui/react": 45882
+      "@interchain-ui/react": 46033
     }
   },
   "telescope": {
-    "total": 977386,
+    "total": 982051,
     "packages": {
-      "@cosmology/telescope": 45336,
-      "@cosmology/lcd": 41155,
-      "@cosmology/ast": 44534,
-      "@osmonauts/telescope": 190413,
-      "@osmonauts/lcd": 473628,
-      "@osmonauts/ast": 182320
+      "@cosmology/telescope": 45745,
+      "@cosmology/lcd": 41544,
+      "@cosmology/ast": 44940,
+      "@osmonauts/telescope": 190985,
+      "@osmonauts/lcd": 475942,
+      "@osmonauts/ast": 182895
     }
   },
   "dydx": {
-    "total": 12788,
+    "total": 13025,
     "packages": {
-      "@dydxprotocol/v4-client-js": 12788
+      "@dydxprotocol/v4-client-js": 13025
     }
   },
   "stargaze": {
-    "total": 18497,
+    "total": 18508,
     "packages": {
-      "stargazejs": 13358,
+      "stargazejs": 13369,
       "@stargaze-zone/chain": 1926,
       "@stargaze-zone/contracts": 2350,
       "stargaze-query": 863
     }
   },
   "stride": {
-    "total": 18172,
+    "total": 18334,
     "packages": {
-      "stridejs": 18172
+      "stridejs": 18334
     }
   },
   "quicksilver": {
-    "total": 3727,
+    "total": 3738,
     "packages": {
-      "quicksilverjs": 3727
+      "quicksilverjs": 3738
     }
   },
   "juno": {
-    "total": 20380,
+    "total": 20413,
     "packages": {
-      "juno-network": 15580,
+      "juno-network": 15613,
       "@juno-network/assets": 4800
     }
   },
   "osmosis": {
-    "total": 190730,
+    "total": 191494,
     "packages": {
-      "@osmonauts/math": 11852,
-      "osmojs": 178878
+      "@osmonauts/math": 11884,
+      "osmojs": 179610
     }
   },
   "chain-registry": {
-    "total": 1366354,
+    "total": 1372372,
     "packages": {
-      "@chain-registry/client": 22230,
-      "@chain-registry/types": 590789,
-      "@chain-registry/keplr": 151528,
-      "@chain-registry/cosmostation": 103953,
-      "@chain-registry/osmosis": 36451,
-      "@chain-registry/juno": 9617,
-      "@chain-registry/assets": 25665,
-      "@chain-registry/utils": 116686,
-      "chain-registry": 309435
+      "@chain-registry/client": 22511,
+      "@chain-registry/types": 593240,
+      "@chain-registry/keplr": 152065,
+      "@chain-registry/cosmostation": 104462,
+      "@chain-registry/osmosis": 36591,
+      "@chain-registry/juno": 9653,
+      "@chain-registry/assets": 25712,
+      "@chain-registry/utils": 117298,
+      "chain-registry": 310840
     }
   },
   "cosmology": {
-    "total": 64359,
+    "total": 64489,
     "packages": {
-      "@cosmology/cli": 15310,
-      "@cosmology/core": 23806,
-      "cosmology": 16201,
-      "create-cosmos-app": 9042
+      "@cosmology/cli": 15314,
+      "@cosmology/core": 23924,
+      "cosmology": 16205,
+      "create-cosmos-app": 9046
     }
   },
   "launchql": {
-    "total": 9800043,
+    "total": 9810065,
     "packages": {
       "graphile-query": 251,
       "pg-ast": 192,
       "@launchql/cli": 11070,
       "@launchql/server": 4510,
-      "libpg-query": 2570718,
-      "pgsql-parser": 2322945,
-      "pgsql-enums": 2571257,
-      "pgsql-deparser": 2319100
+      "libpg-query": 2573653,
+      "pgsql-parser": 2325321,
+      "pgsql-enums": 2573600,
+      "pgsql-deparser": 2321468
     }
   },
   "protobufs": {
-    "total": 849640,
+    "total": 853282,
     "packages": {
-      "@protobufs/cosmos": 146318,
-      "@protobufs/google": 151688,
-      "@protobufs/gogoproto": 151525,
-      "@protobufs/cosmwasm": 27100,
-      "@protobufs/tendermint": 146440,
-      "@protobufs/ibc": 28209,
-      "@protobufs/cosmos_proto": 150755,
-      "@protobufs/osmosis": 12817,
+      "@protobufs/cosmos": 146962,
+      "@protobufs/google": 152359,
+      "@protobufs/gogoproto": 152195,
+      "@protobufs/cosmwasm": 27209,
+      "@protobufs/tendermint": 147083,
+      "@protobufs/ibc": 28320,
+      "@protobufs/cosmos_proto": 151401,
+      "@protobufs/osmosis": 12845,
       "@protobufs/secret": 595,
       "@protobufs/juno": 1884,
       "@protobufs/akash": 942,
@@ -178,7 +178,7 @@
       "@protobufs/comdex": 635,
       "@protobufs/evmos": 513,
       "@protobufs/axelar": 492,
-      "@protobufs/amino": 26572
+      "@protobufs/amino": 26692
     }
   }
 }
