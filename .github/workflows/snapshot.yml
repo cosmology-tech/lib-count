@@ -2,6 +2,8 @@ name: Publish
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '0 0 */3 * *'  # Runs at 00:00 UTC every 3 days
 
 jobs:
   publish-npm:
@@ -20,7 +22,7 @@ jobs:
           git config --global user.email "developers@cosmology.zone"
           git config --global user.name "Cosmology"
           git add .
-          git commit -am "update"
+          git commit -am "update 🛠"
           git push
         env:
           GH_TOKEN: ${{ secrets.ADMIN_GITHUB_TOKEN }}
