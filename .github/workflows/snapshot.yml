@@ -12,15 +12,16 @@ jobs:
           submodules: 'true'
       - uses: actions/setup-node@v3
         with:
-          node-version: 16.14.0
+          node-version: 20
           registry-url: https://registry.npmjs.org/
       - run: |
           yarn
           yarn dev
           git config --global user.email "developers@cosmology.zone"
           git config --global user.name "Cosmology"
+          pwd
           git add .
-          git commit -am "update"
+          git commit -am "update 🛠"
           git push
         env:
           GH_TOKEN: ${{ secrets.ADMIN_GITHUB_TOKEN }}
