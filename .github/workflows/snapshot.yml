@@ -20,6 +20,7 @@ jobs:
           git config --global user.email "developers@cosmology.zone"
           git config --global user.name "Cosmology"
           pwd
+          git status
           git add .
           git commit -am "update 🛠"
           git push
