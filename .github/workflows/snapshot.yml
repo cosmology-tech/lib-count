@@ -7,22 +7,41 @@ jobs:
   publish-npm:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Check out current commit
+        uses: actions/checkout@v3
         with:
           submodules: 'true'
-      - uses: actions/setup-node@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
         with:
           node-version: 20
           registry-url: https://registry.npmjs.org/
-      - run: |
+
+      - name: Install and Build
+        run: |
           yarn
           yarn dev
+
+      - name: Configure Git
+        run: |
           git config --global user.email "developers@cosmology.zone"
           git config --global user.name "Cosmology"
-          pwd
-          git status
+
+      - name: Check if there are any changes
+        id: verify_diff
+        run: |
+          git diff --quiet . || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit
+        if: steps.verify_diff.outputs.changed == 'true'
+        run: |
           git add .
-          git commit -am "update 🛠"
-          git push
+          git commit -m "update 🛠"
+          git status
+
+      - name: Push
+        if: steps.verify_diff.outputs.changed == 'true'
+        run: git push
         env:
           GH_TOKEN: ${{ secrets.ADMIN_GITHUB_TOKEN }}
