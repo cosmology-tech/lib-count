@@ -5,7 +5,7 @@ const path = require('path');
 
 export function generateReadme(data: MergedPackageData) {
     let header = `
-# Web, Inc.
+# Interweb, Inc.
 
 <p align="center">
     <img src="https://github.com/cosmology-tech/lib-count/assets/545047/c379f2e6-7fd8-436c-bd8d-5e3a3837489e" alt="webincubator" width="120">
