@@ -59,11 +59,12 @@ Total Downloads: 138,644
 | @cosmos-kit/leap-metamask-cosmos-snap | 8,184 |
 
 ### cosmwasm
-Total Downloads: 46,497
+Total Downloads: 92,983
 
 | Package | Downloads |
 | ------- | --------- |
 | @cosmwasm/ts-codegen | 46,497 |
+| wasm-ast-types | 46,486 |
 
 ### interchain-ui
 Total Downloads: 3,718
