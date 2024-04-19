@@ -62,6 +62,7 @@ export const packages: Packages = {
         '@cosmology/telescope',
         '@cosmology/lcd',
         '@cosmology/ast',
+        '@cosmology/types',
         '@osmonauts/telescope',
         '@osmonauts/lcd',
         '@osmonauts/ast'
