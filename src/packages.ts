@@ -124,5 +124,11 @@ export const packages: Packages = {
         '@protobufs/secret', '@protobufs/juno', '@protobufs/akash', '@protobufs/regen',
         '@protobufs/pylons', '@protobufs/stargaze', '@protobufs/bcna', '@protobufs/comdex',
         '@protobufs/evmos', '@protobufs/axelar', '@protobufs/amino'
+    ],
+    "utils": [
+        "ast-stringify",
+        "nested-obj",
+        "strfy-json",
+        "schema-typescript"
     ]
 };
