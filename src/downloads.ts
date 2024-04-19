@@ -81,6 +81,7 @@ export async function saveDownloadCountsByCategoryForPeriod
 
     const outputPath = resolve(basePath, periodName + '_downloads.json');
     const outputPathDated = resolve(basePath, `historical/${periodName}_downloads_${getNow()}.json`);
+
     mkdirp.sync(dirname(outputPathDated));
     // Write all categories data to the file at once
     fs.writeFileSync(outputPath, JSON.stringify(categoryData, null, 2));

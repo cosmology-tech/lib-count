@@ -13,6 +13,10 @@ export function generateMarkdownTable(data: DownloadsData) {
         markdown += '| ------- | --------- |\n';
 
         for (const [packageName, downloadCount] of Object.entries(packages)) {
+            if (typeof downloadCount !== 'number') {
+                // TOO NEW
+                continue;
+            }
             markdown += `| ${packageName} | ${formatNumber(downloadCount)} |\n`;
         }
 

@@ -101,7 +101,6 @@ export const packages: Packages = {
         '@cosmology/cli',
         '@cosmology/core',
         'cosmology',
-        'create-cosmos-app',
         'interchain',
         'interchain-query',
         'create-cosmos-app',
@@ -113,6 +112,13 @@ export const packages: Packages = {
         // 'pg-ast',
         // '@launchql/cli',
         // '@launchql/server',
+        'pg-proto-parser',
+        '@pgsql/parser',
+        '@pgsql/deparser',
+        '@pgsql/enums',
+        '@pgsql/types',
+        '@pgsql/utils',
+        '@pgql/parse',
         'libpg-query',
         'pgsql-parser',
         'pgsql-enums',
@@ -129,6 +135,7 @@ export const packages: Packages = {
         "ast-stringify",
         "nested-obj",
         "strfy-json",
-        "schema-typescript"
+        "schema-typescript",
+        "etag-hash"
     ]
 };

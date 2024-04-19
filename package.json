@@ -73,6 +73,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.19.0",
+    "human-format": "^1.2.0",
     "isomorphic-fetch": "^3.0.0",
     "json2csv": "^6.0.0-alpha.2",
     "mkdirp": "^3.0.1"
