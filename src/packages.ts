@@ -54,7 +54,12 @@ export const packages: Packages = {
         '@cosmos-kit/omni-mobile',
         '@cosmos-kit/leap-metamask-cosmos-snap',
     ],
-    "cosmwasm": ['@cosmwasm/ts-codegen', 'wasm-ast-types'],
+    "cosmwasm": [
+        '@cosmwasm/ts-codegen',
+        '@cosmwasm/ts-codegen-types',
+        '@cosmwasm/ts-codegen-ast',
+        'wasm-ast-types'
+    ],
     "interchain-ui": [
         '@interchain-ui/react'
     ],
