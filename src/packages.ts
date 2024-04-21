@@ -105,6 +105,11 @@ export const packages: Packages = {
         'interchain-query',
         'create-cosmos-app',
     ],
+    "starship": [
+        'starshipjs',
+        '@starship-ci/cli',
+        '@starship-ci/client',
+    ],
     "launchql": [
         // 'graphile-query',
         // '@launchql/graphile-settings',
