@@ -1,4 +1,4 @@
-name: Publish
+name: Publish Npm Downloads 🚀
 
 on:
   workflow_dispatch:
@@ -9,7 +9,7 @@ on:
 
 
 jobs:
-  publish-npm:
+  publish-npm-downloads:
     runs-on: ubuntu-latest
     steps:
       - name: Check out current commit
