@@ -32,11 +32,9 @@ export function getWeeklyPeriod() {
 
 export function getMonthlyPeriod() {
     const today = new Date();
-    const firstDayOfMonth = new Date(today.getFullYear(), today.getMonth(), 1);
-    const lastDayOfMonth = new Date(today.getFullYear(), today.getMonth() + 1, 0); // Setting day as 0 goes to the last day of the previous month
-
-    const startDate = formatDate(firstDayOfMonth);
-    const endDate = formatDate(lastDayOfMonth);
+    const lastMonth = new Date(today.getFullYear(), today.getMonth(), today.getDate() - 30);
+    const startDate = formatDate(lastMonth);
+    const endDate = formatDate(today);
     return `${startDate}:${endDate}`;
 }
 
