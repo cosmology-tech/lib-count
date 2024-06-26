@@ -12,6 +12,35 @@ const humanFormat = (num) => {
   })
 }
 
+const makeProductCategoryBadge = (name: string, period: string, n: number, label: string = 'downloads') => {
+  const basePath = resolve(__dirname, '../output');
+  const outputBadge = resolve(basePath, `badges/products/${name}/${period}.json`);
+  mkdirp.sync(dirname(outputBadge));
+  const color = '#4EC428'
+  const num = humanFormat(n);
+  let message;
+
+  switch (period) {
+    case 'weekly':
+      message = `${num}/week`
+      break;
+    case 'monthly':
+      message = `${num}/month`
+      break;
+    case 'total':
+      message = `${num}`
+      break;
+  }
+
+  const badge = {
+    schemaVersion: 1,
+    label,
+    message,
+    color
+  };
+  fs.writeFileSync(outputBadge, JSON.stringify(badge));
+}
+
 export function generateReadme(data: MergedPackageData) {
   const header = `
 # Interweb, Inc.
@@ -110,6 +139,11 @@ export function generateReadme(data: MergedPackageData) {
       }
     }
     markdown += `| *Total* | ${formatNumber(totalCounts.total)} | ${formatNumber(totalCounts.monthly)} | ${formatNumber(totalCounts.weekly)} |\n`;
+    // insert badge creation here
+    makeProductCategoryBadge(category, 'total', totalCounts.total);
+    makeProductCategoryBadge(category, 'monthly', totalCounts.monthly);
+    makeProductCategoryBadge(category, 'weekly', totalCounts.weekly);
+    // insert badge creation here
     for (const { packageName, weekly, monthly, total } of packages) {
       markdown += `| [${packageName}](https://www.npmjs.com/package/${packageName}) | ${formatNumber(total)} | ${formatNumber(monthly)} | ${formatNumber(weekly)} |\n`;
     }
@@ -173,6 +207,7 @@ This repository contains detailed download statistics for all Interweb, Inc.'s s
 
   // https://shields.io/badges/endpoint-badge
   const basePath = resolve(__dirname, '../output');
+
   const makePeriodBadge = (period: string) => {
     const outputBadge = resolve(basePath, `badges/lib-count/${period}_downloads.json`);
     mkdirp.sync(dirname(outputBadge));
