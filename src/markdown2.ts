@@ -140,9 +140,9 @@ export function generateReadme(data: MergedPackageData) {
     }
     markdown += `| *Total* | ${formatNumber(totalCounts.total)} | ${formatNumber(totalCounts.monthly)} | ${formatNumber(totalCounts.weekly)} |\n`;
     // insert badge creation here
-    makeProductCategoryBadge(category, 'total', totalCounts.total);
-    makeProductCategoryBadge(category, 'monthly', totalCounts.monthly);
-    makeProductCategoryBadge(category, 'weekly', totalCounts.weekly);
+    if (totalCounts.total > 0) makeProductCategoryBadge(category, 'total', totalCounts.total);
+    if (totalCounts.monthly > 0) makeProductCategoryBadge(category, 'monthly', totalCounts.monthly);
+    if (totalCounts.weekly > 0) makeProductCategoryBadge(category, 'weekly', totalCounts.weekly);
     // insert badge creation here
     for (const { packageName, weekly, monthly, total } of packages) {
       markdown += `| [${packageName}](https://www.npmjs.com/package/${packageName}) | ${formatNumber(total)} | ${formatNumber(monthly)} | ${formatNumber(weekly)} |\n`;
