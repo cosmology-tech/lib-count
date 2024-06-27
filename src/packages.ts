@@ -58,19 +58,27 @@ export const packages: Packages = {
         '@cosmwasm/ts-codegen',
         '@cosmwasm/ts-codegen-types',
         '@cosmwasm/ts-codegen-ast',
-        'wasm-ast-types'
+        'wasm-ast-types',
+        "cosmwasm-typescript-gen"
     ],
     "interchain-ui": [
-        '@interchain-ui/react'
+        '@interchain-ui/react',
+        '@interchain-ui/vue'
     ],
     "telescope": [
         '@cosmology/telescope',
         '@cosmology/lcd',
         '@cosmology/ast',
         '@cosmology/types',
+        '@cosmology/utils',
+        '@cosmology/proto-parser',
+
         '@osmonauts/telescope',
         '@osmonauts/lcd',
-        '@osmonauts/ast'
+        '@osmonauts/ast',
+        '@osmonauts/utils',
+        '@osmonauts/types',
+        '@osmonauts/proto-parser'
     ],
     "dydx": ['@dydxprotocol/v4-client-js'],
     "stargaze": [
@@ -85,7 +93,11 @@ export const packages: Packages = {
         'juno-network',
         '@juno-network/assets'
     ],
-    "osmosis": ['@osmonauts/math', 'osmojs'],
+    "osmosis": [
+        '@osmonauts/math',
+        'osmojs',
+        'osmo-query'
+    ],
     "chain-registry": [
         '@chain-registry/client',
         '@chain-registry/types',
@@ -98,12 +110,15 @@ export const packages: Packages = {
         'chain-registry'
     ],
     "cosmology": [
+        'cosmjs-utils',
         '@cosmology/cli',
         '@cosmology/core',
         'cosmology',
         'interchain',
         'interchain-query',
         'create-cosmos-app',
+        'create-cosmwasm-app',
+        '@cosmology-ui/react'
     ],
     "starship": [
         'starshipjs',
@@ -117,30 +132,63 @@ export const packages: Packages = {
         // 'pg-ast',
         // '@launchql/cli',
         // '@launchql/server',
-        'pg-proto-parser',
-        '@pgsql/parser',
+        '@launchql/db-templates',
+        '@launchql/db-transform',
+        '@launchql/ext-achievements',
+        '@launchql/ext-jobs-queue',
+        '@launchql/ext-jwt-claims',
+        '@launchql/ext-types',
+        '@launchql/faker',
+        '@launchql/inflection',
+        '@launchql/totp',
+        '@pgql/parse',
         '@pgsql/deparser',
         '@pgsql/enums',
+        '@pgsql/parser',
         '@pgsql/types',
         '@pgsql/utils',
-        '@pgql/parse',
+        '@pyramation/postgraphile-plugin-fulltext-filter',
+        'graphile-column-privileges-mutations',
         'libpg-query',
-        'pgsql-parser',
+        'pg-proto-parser',
+        'pg-query-native-latest',
+        'pg-utils',
+        'pgsql-deparser',
         'pgsql-enums',
-        'pgsql-deparser'
+        'pgsql-parser',
     ],
     "protobufs": [
-        '@protobufs/cosmos', '@protobufs/google', '@protobufs/gogoproto', '@protobufs/cosmwasm',
-        '@protobufs/tendermint', '@protobufs/ibc', '@protobufs/cosmos_proto', '@protobufs/osmosis',
-        '@protobufs/secret', '@protobufs/juno', '@protobufs/akash', '@protobufs/regen',
-        '@protobufs/pylons', '@protobufs/stargaze', '@protobufs/bcna', '@protobufs/comdex',
-        '@protobufs/evmos', '@protobufs/axelar', '@protobufs/amino'
+        '@protobufs/cosmos',
+        '@protobufs/google',
+        '@protobufs/gogoproto',
+        '@protobufs/cosmwasm',
+        '@protobufs/tendermint',
+        '@protobufs/ibc',
+        '@protobufs/cosmos_proto',
+        '@protobufs/osmosis',
+        '@protobufs/secret',
+        '@protobufs/juno',
+        '@protobufs/akash',
+        '@protobufs/regen',
+        '@protobufs/pylons',
+        '@protobufs/stargaze',
+        '@protobufs/bcna',
+        '@protobufs/comdex',
+        '@protobufs/evmos',
+        '@protobufs/axelar',
+        '@protobufs/amino',
+        '@cosmology/protobufjs',
+        "@pyramation/protobufjs"
     ],
     "utils": [
         "ast-stringify",
         "nested-obj",
         "strfy-json",
         "schema-typescript",
-        "etag-hash"
+        "etag-hash",
+        "uuid-hash",
+        "inquirerer",
+        "publish-scripts",
+        "skitch-template"
     ]
 };
