@@ -63,25 +63,32 @@
       "@cosmwasm/ts-codegen": 19762,
       "@cosmwasm/ts-codegen-types": 542,
       "@cosmwasm/ts-codegen-ast": 621,
-      "wasm-ast-types": 19027
+      "wasm-ast-types": 19027,
+      "cosmwasm-typescript-gen": 0
     }
   },
   "interchain-ui": {
-    "total": 1953,
+    "total": 2145,
     "packages": {
-      "@interchain-ui/react": 1953
+      "@interchain-ui/react": 1953,
+      "@interchain-ui/vue": 192
     }
   },
   "telescope": {
-    "total": 44142,
+    "total": 67435,
     "packages": {
       "@cosmology/telescope": 4424,
       "@cosmology/lcd": 4847,
       "@cosmology/ast": 4298,
       "@cosmology/types": 4285,
+      "@cosmology/utils": 4273,
+      "@cosmology/proto-parser": 4262,
       "@osmonauts/telescope": 4901,
       "@osmonauts/lcd": 16465,
-      "@osmonauts/ast": 4922
+      "@osmonauts/ast": 4922,
+      "@osmonauts/utils": 4915,
+      "@osmonauts/types": 4918,
+      "@osmonauts/proto-parser": 4925
     }
   },
   "dydx": {
@@ -119,10 +126,11 @@
     }
   },
   "osmosis": {
-    "total": 5596,
+    "total": 5766,
     "packages": {
       "@osmonauts/math": 401,
-      "osmojs": 5195
+      "osmojs": 5195,
+      "osmo-query": 170
     }
   },
   "chain-registry": {
@@ -140,14 +148,17 @@
     }
   },
   "cosmology": {
-    "total": 464,
+    "total": 635,
     "packages": {
+      "cosmjs-utils": 125,
       "@cosmology/cli": 0,
       "@cosmology/core": 78,
       "cosmology": 0,
       "interchain": 241,
       "interchain-query": 113,
-      "create-cosmos-app": 32
+      "create-cosmos-app": 32,
+      "create-cosmwasm-app": 1,
+      "@cosmology-ui/react": 45
     }
   },
   "starship": {
@@ -161,20 +172,33 @@
   "launchql": {
     "total": null,
     "packages": {
-      "pg-proto-parser": 21,
-      "@pgsql/parser": 1,
+      "@launchql/db-templates": 9,
+      "@launchql/db-transform": 6,
+      "@launchql/ext-achievements": 1,
+      "@launchql/ext-jobs-queue": 0,
+      "@launchql/ext-jwt-claims": 5,
+      "@launchql/ext-types": 2,
+      "@launchql/faker": 0,
+      "@launchql/inflection": 0,
+      "@launchql/totp": 0,
+      "@pgql/parse": 19,
       "@pgsql/enums": 0,
+      "@pgsql/parser": 1,
       "@pgsql/types": 12883,
       "@pgsql/utils": 1,
-      "@pgql/parse": 19,
+      "@pyramation/postgraphile-plugin-fulltext-filter": 508,
+      "graphile-column-privileges-mutations": 71,
       "libpg-query": 48731,
-      "pgsql-parser": 38397,
+      "pg-proto-parser": 21,
+      "pg-query-native-latest": 14,
+      "pg-utils": 1,
+      "pgsql-deparser": 38271,
       "pgsql-enums": 38258,
-      "pgsql-deparser": 38271
+      "pgsql-parser": 38397
     }
   },
   "protobufs": {
-    "total": 64441,
+    "total": 78520,
     "packages": {
       "@protobufs/cosmos": 9906,
       "@protobufs/google": 9808,
@@ -194,7 +218,9 @@
       "@protobufs/comdex": 2,
       "@protobufs/evmos": 2,
       "@protobufs/axelar": 1,
-      "@protobufs/amino": 5161
+      "@protobufs/amino": 5161,
+      "@cosmology/protobufjs": 9096,
+      "@pyramation/protobufjs": 4983
     }
   },
   "utils": {
@@ -203,7 +229,11 @@
       "ast-stringify": 14225,
       "nested-obj": 579,
       "schema-typescript": 184,
-      "etag-hash": 495
+      "etag-hash": 495,
+      "uuid-hash": 371,
+      "inquirerer": 14511,
+      "publish-scripts": 95,
+      "skitch-template": 10
     }
   }
 }

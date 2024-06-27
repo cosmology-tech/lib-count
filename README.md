@@ -18,10 +18,10 @@
 
 | Name | Total | Monthly | Weekly |
 | ------- | ------ | ------- | ----- |
-| *Total* | 21,512,865 | 1,921,293 | 524,778 |
-| Web2 | 10,663,159 | 703,930 | 176,582 |
-| Web3 | 10,400,756 | 1,160,084 | 332,713 |
-| Utils | 448,950 | 57,279 | 15,483 |
+| *Total* | 23,354,185 | 2,123,752 | 578,287 |
+| Web2 | 10,712,763 | 706,275 | 177,199 |
+| Web3 | 11,754,107 | 1,304,590 | 370,618 |
+| Utils | 887,315 | 112,887 | 30,470 |
 
 ### Software Download Count Repository
 
@@ -126,31 +126,38 @@ This repository contains detailed download statistics for all Interweb, Inc.'s s
 
 | Name | Total | Monthly | Weekly |
 | ------- | ------ | ------- | ----- |
-| *Total* | 1,002,718 | 143,168 | 39,952 |
+| *Total* | 1,007,138 | 143,179 | 39,952 |
 | [@cosmwasm/ts-codegen](https://www.npmjs.com/package/@cosmwasm/ts-codegen) | 501,689 | 71,150 | 19,762 |
 | [@cosmwasm/ts-codegen-types](https://www.npmjs.com/package/@cosmwasm/ts-codegen-types) | 1,649 | 1,025 | 542 |
 | [@cosmwasm/ts-codegen-ast](https://www.npmjs.com/package/@cosmwasm/ts-codegen-ast) | 1,687 | 1,105 | 621 |
 | [wasm-ast-types](https://www.npmjs.com/package/wasm-ast-types) | 497,693 | 69,888 | 19,027 |
+| [cosmwasm-typescript-gen](https://www.npmjs.com/package/cosmwasm-typescript-gen) | 4,420 | 11 | 0 |
 
 ### interchain-ui
 
 | Name | Total | Monthly | Weekly |
 | ------- | ------ | ------- | ----- |
-| *Total* | 71,836 | 8,104 | 1,953 |
+| *Total* | 77,329 | 8,410 | 2,145 |
 | [@interchain-ui/react](https://www.npmjs.com/package/@interchain-ui/react) | 71,836 | 8,104 | 1,953 |
+| [@interchain-ui/vue](https://www.npmjs.com/package/@interchain-ui/vue) | 5,493 | 306 | 192 |
 
 ### telescope
 
 | Name | Total | Monthly | Weekly |
 | ------- | ------ | ------- | ----- |
-| *Total* | 1,547,831 | 177,334 | 44,142 |
+| *Total* | 2,432,539 | 265,672 | 67,435 |
 | [@cosmology/telescope](https://www.npmjs.com/package/@cosmology/telescope) | 100,953 | 16,655 | 4,424 |
 | [@cosmology/lcd](https://www.npmjs.com/package/@cosmology/lcd) | 108,532 | 23,489 | 4,847 |
 | [@cosmology/ast](https://www.npmjs.com/package/@cosmology/ast) | 99,801 | 16,318 | 4,298 |
 | [@cosmology/types](https://www.npmjs.com/package/@cosmology/types) | 96,234 | 16,170 | 4,285 |
+| [@cosmology/utils](https://www.npmjs.com/package/@cosmology/utils) | 96,007 | 16,158 | 4,273 |
+| [@cosmology/proto-parser](https://www.npmjs.com/package/@cosmology/proto-parser) | 95,658 | 16,144 | 4,262 |
 | [@osmonauts/telescope](https://www.npmjs.com/package/@osmonauts/telescope) | 233,543 | 18,605 | 4,901 |
 | [@osmonauts/lcd](https://www.npmjs.com/package/@osmonauts/lcd) | 681,432 | 67,404 | 16,465 |
 | [@osmonauts/ast](https://www.npmjs.com/package/@osmonauts/ast) | 227,336 | 18,693 | 4,922 |
+| [@osmonauts/utils](https://www.npmjs.com/package/@osmonauts/utils) | 213,626 | 18,670 | 4,915 |
+| [@osmonauts/types](https://www.npmjs.com/package/@osmonauts/types) | 238,750 | 18,680 | 4,918 |
+| [@osmonauts/proto-parser](https://www.npmjs.com/package/@osmonauts/proto-parser) | 240,667 | 18,686 | 4,925 |
 
 ### dydx
 
@@ -195,9 +202,10 @@ This repository contains detailed download statistics for all Interweb, Inc.'s s
 
 | Name | Total | Monthly | Weekly |
 | ------- | ------ | ------- | ----- |
-| *Total* | 257,315 | 25,291 | 5,596 |
+| *Total* | 264,456 | 27,819 | 5,766 |
 | [@osmonauts/math](https://www.npmjs.com/package/@osmonauts/math) | 16,829 | 1,886 | 401 |
 | [osmojs](https://www.npmjs.com/package/osmojs) | 240,486 | 23,405 | 5,195 |
+| [osmo-query](https://www.npmjs.com/package/osmo-query) | 7,141 | 2,528 | 170 |
 
 ### chain-registry
 
@@ -218,13 +226,16 @@ This repository contains detailed download statistics for all Interweb, Inc.'s s
 
 | Name | Total | Monthly | Weekly |
 | ------- | ------ | ------- | ----- |
-| *Total* | 76,880 | 1,965 | 464 |
+| *Total* | 127,235 | 2,813 | 635 |
+| [cosmjs-utils](https://www.npmjs.com/package/cosmjs-utils) | 21,713 | 648 | 125 |
 | [@cosmology/cli](https://www.npmjs.com/package/@cosmology/cli) | 11,213 | 19 | 0 |
 | [@cosmology/core](https://www.npmjs.com/package/@cosmology/core) | 22,121 | 546 | 78 |
 | [cosmology](https://www.npmjs.com/package/cosmology) | 11,810 | 13 | 0 |
 | [interchain](https://www.npmjs.com/package/interchain) | 13,508 | 861 | 241 |
 | [interchain-query](https://www.npmjs.com/package/interchain-query) | 10,667 | 318 | 113 |
 | [create-cosmos-app](https://www.npmjs.com/package/create-cosmos-app) | 7,561 | 208 | 32 |
+| [create-cosmwasm-app](https://www.npmjs.com/package/create-cosmwasm-app) | 2,499 | 6 | 1 |
+| [@cosmology-ui/react](https://www.npmjs.com/package/@cosmology-ui/react) | 26,143 | 194 | 45 |
 
 ### starship
 
@@ -239,23 +250,36 @@ This repository contains detailed download statistics for all Interweb, Inc.'s s
 
 | Name | Total | Monthly | Weekly |
 | ------- | ------ | ------- | ----- |
-| *Total* | 10,663,159 | 703,930 | 176,582 |
-| [pg-proto-parser](https://www.npmjs.com/package/pg-proto-parser) | 3,709 | 336 | 21 |
-| [@pgsql/parser](https://www.npmjs.com/package/@pgsql/parser) | 165 | 20 | 1 |
+| *Total* | 10,712,763 | 706,275 | 177,199 |
+| [@launchql/db-templates](https://www.npmjs.com/package/@launchql/db-templates) | 2,904 | 22 | 9 |
+| [@launchql/db-transform](https://www.npmjs.com/package/@launchql/db-transform) | 1,332 | 25 | 6 |
+| [@launchql/ext-achievements](https://www.npmjs.com/package/@launchql/ext-achievements) | 1,687 | 6 | 1 |
+| [@launchql/ext-jobs-queue](https://www.npmjs.com/package/@launchql/ext-jobs-queue) | 1,764 | 4 | 0 |
+| [@launchql/ext-jwt-claims](https://www.npmjs.com/package/@launchql/ext-jwt-claims) | 1,778 | 11 | 5 |
+| [@launchql/ext-types](https://www.npmjs.com/package/@launchql/ext-types) | 1,974 | 62 | 2 |
+| [@launchql/faker](https://www.npmjs.com/package/@launchql/faker) | 1,685 | 7 | 0 |
+| [@launchql/inflection](https://www.npmjs.com/package/@launchql/inflection) | 1,956 | 9 | 0 |
+| [@launchql/totp](https://www.npmjs.com/package/@launchql/totp) | 1,726 | 8 | 0 |
+| [@pgql/parse](https://www.npmjs.com/package/@pgql/parse) | 72,273 | 88 | 19 |
 | [@pgsql/enums](https://www.npmjs.com/package/@pgsql/enums) | 689 | 4 | 0 |
+| [@pgsql/parser](https://www.npmjs.com/package/@pgsql/parser) | 165 | 20 | 1 |
 | [@pgsql/types](https://www.npmjs.com/package/@pgsql/types) | 60,799 | 37,258 | 12,883 |
 | [@pgsql/utils](https://www.npmjs.com/package/@pgsql/utils) | 936 | 7 | 1 |
-| [@pgql/parse](https://www.npmjs.com/package/@pgql/parse) | 72,273 | 88 | 19 |
+| [@pyramation/postgraphile-plugin-fulltext-filter](https://www.npmjs.com/package/@pyramation/postgraphile-plugin-fulltext-filter) | 29,202 | 1,980 | 508 |
+| [graphile-column-privileges-mutations](https://www.npmjs.com/package/graphile-column-privileges-mutations) | 2,603 | 173 | 71 |
 | [libpg-query](https://www.npmjs.com/package/libpg-query) | 2,824,428 | 196,718 | 48,731 |
-| [pgsql-parser](https://www.npmjs.com/package/pgsql-parser) | 2,500,249 | 158,081 | 38,397 |
-| [pgsql-enums](https://www.npmjs.com/package/pgsql-enums) | 2,707,398 | 155,690 | 38,258 |
+| [pg-proto-parser](https://www.npmjs.com/package/pg-proto-parser) | 3,709 | 336 | 21 |
+| [pg-query-native-latest](https://www.npmjs.com/package/pg-query-native-latest) | 387 | 34 | 14 |
+| [pg-utils](https://www.npmjs.com/package/pg-utils) | 606 | 4 | 1 |
 | [pgsql-deparser](https://www.npmjs.com/package/pgsql-deparser) | 2,492,513 | 155,728 | 38,271 |
+| [pgsql-enums](https://www.npmjs.com/package/pgsql-enums) | 2,707,398 | 155,690 | 38,258 |
+| [pgsql-parser](https://www.npmjs.com/package/pgsql-parser) | 2,500,249 | 158,081 | 38,397 |
 
 ### protobufs
 
 | Name | Total | Monthly | Weekly |
 | ------- | ------ | ------- | ----- |
-| *Total* | 1,662,768 | 232,218 | 64,441 |
+| *Total* | 2,064,002 | 284,693 | 78,520 |
 | [@protobufs/cosmos](https://www.npmjs.com/package/@protobufs/cosmos) | 266,418 | 35,887 | 9,906 |
 | [@protobufs/google](https://www.npmjs.com/package/@protobufs/google) | 272,341 | 35,691 | 9,808 |
 | [@protobufs/gogoproto](https://www.npmjs.com/package/@protobufs/gogoproto) | 272,211 | 35,692 | 9,797 |
@@ -275,16 +299,22 @@ This repository contains detailed download statistics for all Interweb, Inc.'s s
 | [@protobufs/evmos](https://www.npmjs.com/package/@protobufs/evmos) | 353 | 4 | 2 |
 | [@protobufs/axelar](https://www.npmjs.com/package/@protobufs/axelar) | 320 | 3 | 1 |
 | [@protobufs/amino](https://www.npmjs.com/package/@protobufs/amino) | 100,230 | 18,212 | 5,161 |
+| [@cosmology/protobufjs](https://www.npmjs.com/package/@cosmology/protobufjs) | 189,349 | 33,284 | 9,096 |
+| [@pyramation/protobufjs](https://www.npmjs.com/package/@pyramation/protobufjs) | 211,885 | 19,191 | 4,983 |
 
 ### utils
 
 | Name | Total | Monthly | Weekly |
 | ------- | ------ | ------- | ----- |
-| *Total* | 448,950 | 57,279 | 15,483 |
+| *Total* | 887,315 | 112,887 | 30,470 |
 | [ast-stringify](https://www.npmjs.com/package/ast-stringify) | 402,777 | 52,660 | 14,225 |
 | [nested-obj](https://www.npmjs.com/package/nested-obj) | 2,350 | 1,150 | 579 |
 | [schema-typescript](https://www.npmjs.com/package/schema-typescript) | 3,153 | 1,073 | 184 |
 | [etag-hash](https://www.npmjs.com/package/etag-hash) | 40,670 | 2,396 | 495 |
+| [uuid-hash](https://www.npmjs.com/package/uuid-hash) | 13,548 | 945 | 371 |
+| [inquirerer](https://www.npmjs.com/package/inquirerer) | 411,114 | 53,949 | 14,511 |
+| [publish-scripts](https://www.npmjs.com/package/publish-scripts) | 12,381 | 674 | 95 |
+| [skitch-template](https://www.npmjs.com/package/skitch-template) | 1,322 | 40 | 10 |
 
 
 ## Understanding Downloads

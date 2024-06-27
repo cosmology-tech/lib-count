@@ -59,7 +59,7 @@ Total Downloads: 263,785
 | @cosmos-kit/leap-metamask-cosmos-snap | 12,788 |
 
 ### cosmwasm
-Total Downloads: 143,168
+Total Downloads: 143,179
 
 | Package | Downloads |
 | ------- | --------- |
@@ -67,16 +67,18 @@ Total Downloads: 143,168
 | @cosmwasm/ts-codegen-types | 1,025 |
 | @cosmwasm/ts-codegen-ast | 1,105 |
 | wasm-ast-types | 69,888 |
+| cosmwasm-typescript-gen | 11 |
 
 ### interchain-ui
-Total Downloads: 8,104
+Total Downloads: 8,410
 
 | Package | Downloads |
 | ------- | --------- |
 | @interchain-ui/react | 8,104 |
+| @interchain-ui/vue | 306 |
 
 ### telescope
-Total Downloads: 177,334
+Total Downloads: 265,672
 
 | Package | Downloads |
 | ------- | --------- |
@@ -84,9 +86,14 @@ Total Downloads: 177,334
 | @cosmology/lcd | 23,489 |
 | @cosmology/ast | 16,318 |
 | @cosmology/types | 16,170 |
+| @cosmology/utils | 16,158 |
+| @cosmology/proto-parser | 16,144 |
 | @osmonauts/telescope | 18,605 |
 | @osmonauts/lcd | 67,404 |
 | @osmonauts/ast | 18,693 |
+| @osmonauts/utils | 18,670 |
+| @osmonauts/types | 18,680 |
+| @osmonauts/proto-parser | 18,686 |
 
 ### dydx
 Total Downloads: 5,306
@@ -128,12 +135,13 @@ Total Downloads: 1,117
 | @juno-network/assets | 5 |
 
 ### osmosis
-Total Downloads: 25,291
+Total Downloads: 27,819
 
 | Package | Downloads |
 | ------- | --------- |
 | @osmonauts/math | 1,886 |
 | osmojs | 23,405 |
+| osmo-query | 2,528 |
 
 ### chain-registry
 Total Downloads: 227,810
@@ -151,16 +159,19 @@ Total Downloads: 227,810
 | chain-registry | 33,640 |
 
 ### cosmology
-Total Downloads: 1,965
+Total Downloads: 2,813
 
 | Package | Downloads |
 | ------- | --------- |
+| cosmjs-utils | 648 |
 | @cosmology/cli | 19 |
 | @cosmology/core | 546 |
 | cosmology | 13 |
 | interchain | 861 |
 | interchain-query | 318 |
 | create-cosmos-app | 208 |
+| create-cosmwasm-app | 6 |
+| @cosmology-ui/react | 194 |
 
 ### starship
 Total Downloads: 3,400
@@ -176,19 +187,32 @@ Total Downloads: NaN
 
 | Package | Downloads |
 | ------- | --------- |
-| pg-proto-parser | 336 |
-| @pgsql/parser | 20 |
+| @launchql/db-templates | 22 |
+| @launchql/db-transform | 25 |
+| @launchql/ext-achievements | 6 |
+| @launchql/ext-jobs-queue | 4 |
+| @launchql/ext-jwt-claims | 11 |
+| @launchql/ext-types | 62 |
+| @launchql/faker | 7 |
+| @launchql/inflection | 9 |
+| @launchql/totp | 8 |
+| @pgql/parse | 88 |
 | @pgsql/enums | 4 |
+| @pgsql/parser | 20 |
 | @pgsql/types | 37,258 |
 | @pgsql/utils | 7 |
-| @pgql/parse | 88 |
+| @pyramation/postgraphile-plugin-fulltext-filter | 1,980 |
+| graphile-column-privileges-mutations | 173 |
 | libpg-query | 196,718 |
-| pgsql-parser | 158,081 |
-| pgsql-enums | 155,690 |
+| pg-proto-parser | 336 |
+| pg-query-native-latest | 34 |
+| pg-utils | 4 |
 | pgsql-deparser | 155,728 |
+| pgsql-enums | 155,690 |
+| pgsql-parser | 158,081 |
 
 ### protobufs
-Total Downloads: 232,218
+Total Downloads: 284,693
 
 | Package | Downloads |
 | ------- | --------- |
@@ -211,6 +235,8 @@ Total Downloads: 232,218
 | @protobufs/evmos | 4 |
 | @protobufs/axelar | 3 |
 | @protobufs/amino | 18,212 |
+| @cosmology/protobufjs | 33,284 |
+| @pyramation/protobufjs | 19,191 |
 
 ### utils
 Total Downloads: NaN
@@ -221,4 +247,8 @@ Total Downloads: NaN
 | nested-obj | 1,150 |
 | schema-typescript | 1,073 |
 | etag-hash | 2,396 |
+| uuid-hash | 945 |
+| inquirerer | 53,949 |
+| publish-scripts | 674 |
+| skitch-template | 40 |
 
