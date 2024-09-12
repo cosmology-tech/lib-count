@@ -1,6 +1,7 @@
 import { MergedPackageData } from "./types";
 import { mkdirp } from "mkdirp";
 import { resolve, dirname } from 'path';
+import { getNow } from "./downloads";
 
 const fs = require('fs');
 const path = require('path');
@@ -15,7 +16,10 @@ const humanFormat = (num) => {
 const makeProductCategoryBadge = (name: string, period: string, n: number, label: string = 'downloads') => {
   const basePath = resolve(__dirname, '../output');
   const outputBadge = resolve(basePath, `badges/products/${name}/${period}.json`);
+  const outputNumber = resolve(basePath, `badges/products/${name}/${period}-num.json`);
+  const historical = resolve(basePath, `badges/products/historical/${name}/${period}-${getNow()}.json`);
   mkdirp.sync(dirname(outputBadge));
+  mkdirp.sync(dirname(historical));
   const color = '#4EC428'
   const num = humanFormat(n);
   let message;
@@ -38,7 +42,13 @@ const makeProductCategoryBadge = (name: string, period: string, n: number, label
     message,
     color
   };
+  const pure = {
+    period,
+    amount: n
+  };
   fs.writeFileSync(outputBadge, JSON.stringify(badge));
+  fs.writeFileSync(outputNumber, JSON.stringify(pure));
+  fs.writeFileSync(historical, JSON.stringify(pure));
 }
 
 export function generateReadme(data: MergedPackageData) {
