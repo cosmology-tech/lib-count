@@ -1,254 +1,254 @@
 ### cosmos-kit
-Total Downloads: 1,053,799
+Total Downloads: 1,054,591
 
 | Package | Downloads |
 | ------- | --------- |
-| cosmos-kit | 31,031 |
-| @cosmos-kit/core | 439,090 |
-| @cosmos-kit/react | 133,130 |
-| @cosmos-kit/react-lite | 153,908 |
-| @cosmos-kit/walletconnect | 296,640 |
+| cosmos-kit | 31,080 |
+| @cosmos-kit/core | 439,377 |
+| @cosmos-kit/react | 133,181 |
+| @cosmos-kit/react-lite | 153,985 |
+| @cosmos-kit/walletconnect | 296,968 |
 
 ### cosmos-kit-wallets
-Total Downloads: 4,386,889
+Total Downloads: 4,393,549
 
 | Package | Downloads |
 | ------- | --------- |
-| @cosmos-kit/frontier-extension | 47,936 |
-| @cosmos-kit/ledger | 41,479 |
+| @cosmos-kit/frontier-extension | 47,977 |
+| @cosmos-kit/ledger | 41,531 |
 | @cosmos-kit/cosmos-extension-metamask | 24,881 |
-| @cosmos-kit/fin | 37,394 |
-| @cosmos-kit/coin98-extension | 44,782 |
-| @cosmos-kit/okxwallet-extension | 138,204 |
-| @cosmos-kit/trust-mobile | 108,713 |
-| @cosmos-kit/shell | 39,508 |
-| @cosmos-kit/leap-capsule-social-login | 1,718 |
-| @cosmos-kit/cosmostation-extension | 220,381 |
-| @cosmos-kit/vectis | 60,641 |
-| @cosmos-kit/fin-extension | 42,362 |
+| @cosmos-kit/fin | 37,444 |
+| @cosmos-kit/coin98-extension | 44,833 |
+| @cosmos-kit/okxwallet-extension | 138,523 |
+| @cosmos-kit/trust-mobile | 109,016 |
+| @cosmos-kit/shell | 39,558 |
+| @cosmos-kit/leap-capsule-social-login | 1,720 |
+| @cosmos-kit/cosmostation-extension | 220,669 |
+| @cosmos-kit/vectis | 60,691 |
+| @cosmos-kit/fin-extension | 42,415 |
 | @cosmos-kit/ninji | 7,911 |
-| @cosmos-kit/station-extension | 138,245 |
-| @cosmos-kit/coin98 | 44,995 |
-| @cosmos-kit/leap-extension | 264,746 |
-| @cosmos-kit/exodus | 37,793 |
-| @cosmos-kit/trust-extension | 98,378 |
-| @cosmos-kit/leap | 250,531 |
-| @cosmos-kit/xdefi | 140,536 |
-| @cosmos-kit/web3auth | 22,713 |
+| @cosmos-kit/station-extension | 138,562 |
+| @cosmos-kit/coin98 | 45,046 |
+| @cosmos-kit/leap-extension | 265,058 |
+| @cosmos-kit/exodus | 37,843 |
+| @cosmos-kit/trust-extension | 98,661 |
+| @cosmos-kit/leap | 250,828 |
+| @cosmos-kit/xdefi | 140,854 |
+| @cosmos-kit/web3auth | 22,714 |
 | @cosmos-kit/initia-extension | 4,101 |
-| @cosmos-kit/cosmostation | 210,696 |
-| @cosmos-kit/shell-extension | 39,925 |
-| @cosmos-kit/cosmostation-mobile | 203,367 |
-| @cosmos-kit/vectis-extension | 59,537 |
-| @cosmos-kit/station | 138,066 |
-| @cosmos-kit/exodus-extension | 38,379 |
-| @cosmos-kit/leap-mobile | 225,952 |
+| @cosmos-kit/cosmostation | 210,972 |
+| @cosmos-kit/shell-extension | 39,975 |
+| @cosmos-kit/cosmostation-mobile | 203,660 |
+| @cosmos-kit/vectis-extension | 59,584 |
+| @cosmos-kit/station | 138,385 |
+| @cosmos-kit/exodus-extension | 38,431 |
+| @cosmos-kit/leap-mobile | 226,306 |
 | @cosmos-kit/initia | 3,922 |
-| @cosmos-kit/frontier | 46,725 |
-| @cosmos-kit/trust | 108,878 |
-| @cosmos-kit/compass | 48,871 |
-| @cosmos-kit/keplr-mobile | 263,892 |
-| @cosmos-kit/keplr-extension | 278,514 |
-| @cosmos-kit/ninji-extension | 8,290 |
-| @cosmos-kit/compass-extension | 54,828 |
-| @cosmos-kit/xdefi-extension | 160,675 |
-| @cosmos-kit/okxwallet | 115,888 |
-| @cosmos-kit/omni | 52,084 |
-| @cosmos-kit/keplr | 272,119 |
-| @cosmos-kit/omni-mobile | 54,110 |
-| @cosmos-kit/leap-metamask-cosmos-snap | 184,223 |
+| @cosmos-kit/frontier | 46,768 |
+| @cosmos-kit/trust | 109,170 |
+| @cosmos-kit/compass | 48,922 |
+| @cosmos-kit/keplr-mobile | 264,214 |
+| @cosmos-kit/keplr-extension | 278,825 |
+| @cosmos-kit/ninji-extension | 8,291 |
+| @cosmos-kit/compass-extension | 54,881 |
+| @cosmos-kit/xdefi-extension | 160,981 |
+| @cosmos-kit/okxwallet | 116,154 |
+| @cosmos-kit/omni | 52,126 |
+| @cosmos-kit/keplr | 272,400 |
+| @cosmos-kit/omni-mobile | 54,163 |
+| @cosmos-kit/leap-metamask-cosmos-snap | 184,583 |
 
 ### cosmwasm
-Total Downloads: 1,382,645
+Total Downloads: 1,384,763
 
 | Package | Downloads |
 | ------- | --------- |
-| @cosmwasm/ts-codegen | 678,544 |
-| @cosmwasm/ts-codegen-types | 23,836 |
-| @cosmwasm/ts-codegen-ast | 23,857 |
-| wasm-ast-types | 651,509 |
-| cosmwasm-typescript-gen | 4,899 |
+| @cosmwasm/ts-codegen | 679,420 |
+| @cosmwasm/ts-codegen-types | 24,150 |
+| @cosmwasm/ts-codegen-ast | 24,171 |
+| wasm-ast-types | 652,130 |
+| cosmwasm-typescript-gen | 4,892 |
 
 ### interchain-ui
-Total Downloads: 109,866
+Total Downloads: 109,960
 
 | Package | Downloads |
 | ------- | --------- |
-| @interchain-ui/react | 103,267 |
-| @interchain-ui/vue | 6,599 |
+| @interchain-ui/react | 103,358 |
+| @interchain-ui/vue | 6,602 |
 
 ### telescope
-Total Downloads: 3,242,057
+Total Downloads: 3,243,688
 
 | Package | Downloads |
 | ------- | --------- |
-| @cosmology/telescope | 175,508 |
-| @cosmology/lcd | 167,944 |
-| @cosmology/ast | 173,332 |
-| @cosmology/types | 169,534 |
-| @cosmology/utils | 169,504 |
-| @cosmology/proto-parser | 168,829 |
-| @osmonauts/telescope | 274,565 |
-| @osmonauts/lcd | 856,895 |
-| @osmonauts/ast | 268,354 |
-| @osmonauts/utils | 254,789 |
-| @osmonauts/types | 280,417 |
-| @osmonauts/proto-parser | 282,386 |
+| @cosmology/telescope | 175,885 |
+| @cosmology/lcd | 168,552 |
+| @cosmology/ast | 173,682 |
+| @cosmology/types | 169,880 |
+| @cosmology/utils | 169,856 |
+| @cosmology/proto-parser | 169,173 |
+| @osmonauts/telescope | 274,450 |
+| @osmonauts/lcd | 856,682 |
+| @osmonauts/ast | 268,234 |
+| @osmonauts/utils | 254,694 |
+| @osmonauts/types | 280,315 |
+| @osmonauts/proto-parser | 282,285 |
 
 ### dydx
-Total Downloads: 51,508
+Total Downloads: 51,586
 
 | Package | Downloads |
 | ------- | --------- |
-| @dydxprotocol/v4-client-js | 51,508 |
+| @dydxprotocol/v4-client-js | 51,586 |
 
 ### stargaze
-Total Downloads: 18,518
+Total Downloads: 18,520
 
 | Package | Downloads |
 | ------- | --------- |
-| stargazejs | 14,413 |
-| @stargaze-zone/chain | 1,086 |
+| stargazejs | 14,414 |
+| @stargaze-zone/chain | 1,087 |
 | @stargaze-zone/contracts | 1,478 |
 | stargaze-query | 1,541 |
 
 ### stride
-Total Downloads: 23,957
+Total Downloads: 23,903
 
 | Package | Downloads |
 | ------- | --------- |
-| stridejs | 23,957 |
+| stridejs | 23,903 |
 
 ### quicksilver
-Total Downloads: 4,384
+Total Downloads: 4,383
 
 | Package | Downloads |
 | ------- | --------- |
-| quicksilverjs | 4,384 |
+| quicksilverjs | 4,383 |
 
 ### juno
-Total Downloads: 21,824
+Total Downloads: 21,810
 
 | Package | Downloads |
 | ------- | --------- |
-| juno-network | 18,726 |
-| @juno-network/assets | 3,098 |
+| juno-network | 18,718 |
+| @juno-network/assets | 3,092 |
 
 ### osmosis
-Total Downloads: 325,056
+Total Downloads: 325,373
 
 | Package | Downloads |
 | ------- | --------- |
-| @osmonauts/math | 23,346 |
-| osmojs | 290,896 |
-| osmo-query | 10,814 |
+| @osmonauts/math | 23,372 |
+| osmojs | 291,143 |
+| osmo-query | 10,858 |
 
 ### chain-registry
-Total Downloads: 3,130,759
+Total Downloads: 3,135,619
 
 | Package | Downloads |
 | ------- | --------- |
-| @chain-registry/client | 191,337 |
-| @chain-registry/types | 1,180,733 |
-| @chain-registry/keplr | 418,503 |
-| @chain-registry/cosmostation | 330,860 |
-| @chain-registry/osmosis | 68,372 |
-| @chain-registry/juno | 24,540 |
-| @chain-registry/assets | 35,102 |
-| @chain-registry/utils | 316,751 |
-| chain-registry | 564,561 |
+| @chain-registry/client | 191,903 |
+| @chain-registry/types | 1,182,057 |
+| @chain-registry/keplr | 419,345 |
+| @chain-registry/cosmostation | 331,578 |
+| @chain-registry/osmosis | 68,480 |
+| @chain-registry/juno | 24,639 |
+| @chain-registry/assets | 35,206 |
+| @chain-registry/utils | 317,290 |
+| chain-registry | 565,121 |
 
 ### cosmology
-Total Downloads: 128,666
+Total Downloads: 128,686
 
 | Package | Downloads |
 | ------- | --------- |
-| cosmjs-utils | 21,651 |
-| @cosmology/cli | 11,126 |
-| @cosmology/core | 22,588 |
-| cosmology | 11,031 |
-| interchain | 15,160 |
-| interchain-query | 12,682 |
-| create-cosmos-app | 7,797 |
-| create-cosmwasm-app | 2,569 |
-| @cosmology-ui/react | 24,062 |
+| cosmjs-utils | 21,648 |
+| @cosmology/cli | 11,108 |
+| @cosmology/core | 22,579 |
+| cosmology | 11,013 |
+| interchain | 15,211 |
+| interchain-query | 12,742 |
+| create-cosmos-app | 7,792 |
+| create-cosmwasm-app | 2,568 |
+| @cosmology-ui/react | 24,025 |
 
 ### starship
-Total Downloads: 10,953
+Total Downloads: 11,003
 
 | Package | Downloads |
 | ------- | --------- |
-| starshipjs | 3,486 |
-| @starship-ci/cli | 3,571 |
-| @starship-ci/client | 3,896 |
+| starshipjs | 3,508 |
+| @starship-ci/cli | 3,585 |
+| @starship-ci/client | 3,910 |
 
 ### launchql
 Total Downloads: NaN
 
 | Package | Downloads |
 | ------- | --------- |
-| @launchql/db-templates | 3,385 |
-| @launchql/db-transform | 1,557 |
-| @launchql/ext-achievements | 1,848 |
-| @launchql/ext-jobs-queue | 1,998 |
+| @launchql/db-templates | 3,376 |
+| @launchql/db-transform | 1,558 |
+| @launchql/ext-achievements | 1,846 |
+| @launchql/ext-jobs-queue | 1,963 |
 | @launchql/ext-jwt-claims | 1,985 |
-| @launchql/ext-types | 2,431 |
-| @launchql/faker | 1,959 |
-| @launchql/inflection | 2,233 |
-| @launchql/totp | 1,986 |
-| @pgql/parse | 61,116 |
+| @launchql/ext-types | 2,425 |
+| @launchql/faker | 1,956 |
+| @launchql/inflection | 2,229 |
+| @launchql/totp | 1,984 |
+| @pgql/parse | 60,886 |
 | @pgsql/enums | 803 |
 | @pgsql/parser | 198 |
-| @pgsql/types | 251,944 |
-| @pgsql/utils | 1,103 |
-| @pyramation/postgraphile-plugin-fulltext-filter | 31,852 |
-| graphile-column-privileges-mutations | 2,787 |
-| libpg-query | 3,157,678 |
-| pg-proto-parser | 4,269 |
+| @pgsql/types | 252,490 |
+| @pgsql/utils | 1,153 |
+| @pyramation/postgraphile-plugin-fulltext-filter | 31,787 |
+| graphile-column-privileges-mutations | 2,782 |
+| libpg-query | 3,153,544 |
+| pg-proto-parser | 4,270 |
 | pg-query-native-latest | 417 |
-| pg-utils | 660 |
-| pgsql-deparser | 2,709,673 |
-| pgsql-enums | 2,829,484 |
-| pgsql-parser | 2,717,798 |
+| pg-utils | 656 |
+| pgsql-deparser | 2,705,953 |
+| pgsql-enums | 2,823,559 |
+| pgsql-parser | 2,714,074 |
 
 ### protobufs
-Total Downloads: 2,639,033
+Total Downloads: 2,641,961
 
 | Package | Downloads |
 | ------- | --------- |
-| @protobufs/cosmos | 335,813 |
-| @protobufs/google | 343,452 |
-| @protobufs/gogoproto | 343,264 |
-| @protobufs/cosmwasm | 125,844 |
-| @protobufs/tendermint | 333,569 |
-| @protobufs/ibc | 127,265 |
-| @protobufs/cosmos_proto | 338,174 |
-| @protobufs/osmosis | 10,640 |
-| @protobufs/secret | 508 |
-| @protobufs/juno | 1,654 |
+| @protobufs/cosmos | 336,096 |
+| @protobufs/google | 343,740 |
+| @protobufs/gogoproto | 343,550 |
+| @protobufs/cosmwasm | 126,157 |
+| @protobufs/tendermint | 333,855 |
+| @protobufs/ibc | 127,581 |
+| @protobufs/cosmos_proto | 338,457 |
+| @protobufs/osmosis | 10,637 |
+| @protobufs/secret | 507 |
+| @protobufs/juno | 1,653 |
 | @protobufs/akash | 697 |
-| @protobufs/regen | 613 |
-| @protobufs/pylons | 453 |
+| @protobufs/regen | 611 |
+| @protobufs/pylons | 454 |
 | @protobufs/stargaze | 693 |
 | @protobufs/bcna | 561 |
 | @protobufs/comdex | 467 |
 | @protobufs/evmos | 340 |
-| @protobufs/axelar | 302 |
-| @protobufs/amino | 129,759 |
-| @cosmology/protobufjs | 290,491 |
-| @pyramation/protobufjs | 254,474 |
+| @protobufs/axelar | 299 |
+| @protobufs/amino | 130,071 |
+| @cosmology/protobufjs | 291,146 |
+| @pyramation/protobufjs | 254,389 |
 
 ### utils
 Total Downloads: NaN
 
 | Package | Downloads |
 | ------- | --------- |
-| ast-stringify | 547,711 |
-| nested-obj | 24,566 |
-| schema-typescript | 6,535 |
-| etag-hash | 44,386 |
-| uuid-hash | 14,033 |
-| inquirerer | 559,379 |
-| publish-scripts | 13,938 |
-| skitch-template | 1,477 |
+| ast-stringify | 548,271 |
+| nested-obj | 24,930 |
+| schema-typescript | 6,576 |
+| etag-hash | 44,374 |
+| uuid-hash | 13,984 |
+| inquirerer | 559,995 |
+| publish-scripts | 13,942 |
+| skitch-template | 1,475 |
 
