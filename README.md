@@ -18,10 +18,10 @@
 
 | Name | Total | Monthly | Weekly |
 | ------- | ------ | ------- | ----- |
-| *Total* | 39,125,891 | 3,527,395 | 717,020 |
-| Web2 | 11,019,712 | 513,379 | 109,345 |
-| Web3 | 26,289,116 | 2,838,017 | 573,196 |
-| Utils | 1,817,063 | 175,999 | 34,479 |
+| *Total* | 39,200,488 | 3,553,675 | 762,436 |
+| Web2 | 11,003,071 | 536,287 | 128,939 |
+| Web3 | 26,375,394 | 2,841,323 | 597,833 |
+| Utils | 1,822,023 | 176,065 | 35,664 |
 
 ### Software Download Count Repository
 
@@ -66,255 +66,255 @@ This repository contains detailed download statistics for all Interweb, Inc.'s s
 
 | Name | Total | Monthly | Weekly |
 | ------- | ------ | ------- | ----- |
-| *Total* | 1,522,369 | 150,899 | 31,468 |
-| [cosmos-kit](https://www.npmjs.com/package/cosmos-kit) | 43,506 | 2,811 | 483 |
-| [@cosmos-kit/core](https://www.npmjs.com/package/@cosmos-kit/core) | 663,521 | 77,986 | 16,792 |
-| [@cosmos-kit/react](https://www.npmjs.com/package/@cosmos-kit/react) | 149,995 | 6,618 | 1,284 |
-| [@cosmos-kit/react-lite](https://www.npmjs.com/package/@cosmos-kit/react-lite) | 181,222 | 7,947 | 1,340 |
-| [@cosmos-kit/walletconnect](https://www.npmjs.com/package/@cosmos-kit/walletconnect) | 484,125 | 55,537 | 11,569 |
+| *Total* | 1,527,513 | 152,291 | 33,699 |
+| [cosmos-kit](https://www.npmjs.com/package/cosmos-kit) | 43,870 | 3,131 | 799 |
+| [@cosmos-kit/core](https://www.npmjs.com/package/@cosmos-kit/core) | 666,012 | 78,319 | 17,562 |
+| [@cosmos-kit/react](https://www.npmjs.com/package/@cosmos-kit/react) | 150,205 | 6,917 | 1,530 |
+| [@cosmos-kit/react-lite](https://www.npmjs.com/package/@cosmos-kit/react-lite) | 181,613 | 8,391 | 1,726 |
+| [@cosmos-kit/walletconnect](https://www.npmjs.com/package/@cosmos-kit/walletconnect) | 485,813 | 55,533 | 12,082 |
 
 ### cosmos-kit-wallets
 
 | Name | Total | Monthly | Weekly |
 | ------- | ------ | ------- | ----- |
-| *Total* | 8,070,082 | 1,050,218 | 218,446 |
-| [@cosmos-kit/frontier-extension](https://www.npmjs.com/package/@cosmos-kit/frontier-extension) | 58,363 | 3,199 | 647 |
-| [@cosmos-kit/ledger](https://www.npmjs.com/package/@cosmos-kit/ledger) | 58,949 | 3,731 | 591 |
-| [@cosmos-kit/cosmos-extension-metamask](https://www.npmjs.com/package/@cosmos-kit/cosmos-extension-metamask) | 30,940 | 2,081 | 474 |
-| [@cosmos-kit/fin](https://www.npmjs.com/package/@cosmos-kit/fin) | 51,619 | 3,122 | 615 |
-| [@cosmos-kit/coin98-extension](https://www.npmjs.com/package/@cosmos-kit/coin98-extension) | 56,884 | 3,197 | 615 |
-| [@cosmos-kit/okxwallet-extension](https://www.npmjs.com/package/@cosmos-kit/okxwallet-extension) | 321,974 | 50,224 | 10,458 |
-| [@cosmos-kit/trust-mobile](https://www.npmjs.com/package/@cosmos-kit/trust-mobile) | 285,214 | 50,719 | 10,597 |
-| [@cosmos-kit/shell](https://www.npmjs.com/package/@cosmos-kit/shell) | 53,211 | 2,946 | 497 |
-| [@cosmos-kit/leap-capsule-social-login](https://www.npmjs.com/package/@cosmos-kit/leap-capsule-social-login) | 4,990 | 391 | 38 |
-| [@cosmos-kit/cosmostation-extension](https://www.npmjs.com/package/@cosmos-kit/cosmostation-extension) | 403,127 | 52,684 | 10,924 |
-| [@cosmos-kit/vectis](https://www.npmjs.com/package/@cosmos-kit/vectis) | 73,096 | 3,233 | 619 |
-| [@cosmos-kit/fin-extension](https://www.npmjs.com/package/@cosmos-kit/fin-extension) | 56,883 | 3,063 | 580 |
-| [@cosmos-kit/ninji](https://www.npmjs.com/package/@cosmos-kit/ninji) | 9,798 | 398 | 92 |
-| [@cosmos-kit/station-extension](https://www.npmjs.com/package/@cosmos-kit/station-extension) | 321,400 | 50,818 | 10,583 |
-| [@cosmos-kit/coin98](https://www.npmjs.com/package/@cosmos-kit/coin98) | 57,158 | 3,154 | 613 |
-| [@cosmos-kit/leap-extension](https://www.npmjs.com/package/@cosmos-kit/leap-extension) | 451,565 | 54,929 | 11,475 |
-| [@cosmos-kit/exodus](https://www.npmjs.com/package/@cosmos-kit/exodus) | 51,121 | 3,106 | 593 |
-| [@cosmos-kit/trust-extension](https://www.npmjs.com/package/@cosmos-kit/trust-extension) | 275,279 | 50,439 | 10,516 |
-| [@cosmos-kit/leap](https://www.npmjs.com/package/@cosmos-kit/leap) | 431,258 | 54,835 | 11,601 |
-| [@cosmos-kit/xdefi](https://www.npmjs.com/package/@cosmos-kit/xdefi) | 320,753 | 50,290 | 10,559 |
-| [@cosmos-kit/web3auth](https://www.npmjs.com/package/@cosmos-kit/web3auth) | 24,403 | 1,213 | 253 |
-| [@cosmos-kit/initia-extension](https://www.npmjs.com/package/@cosmos-kit/initia-extension) | 5,042 | 181 | 36 |
-| [@cosmos-kit/cosmostation](https://www.npmjs.com/package/@cosmos-kit/cosmostation) | 384,220 | 52,154 | 10,918 |
-| [@cosmos-kit/shell-extension](https://www.npmjs.com/package/@cosmos-kit/shell-extension) | 53,744 | 3,041 | 517 |
-| [@cosmos-kit/cosmostation-mobile](https://www.npmjs.com/package/@cosmos-kit/cosmostation-mobile) | 379,524 | 51,955 | 10,894 |
-| [@cosmos-kit/vectis-extension](https://www.npmjs.com/package/@cosmos-kit/vectis-extension) | 71,961 | 3,168 | 611 |
-| [@cosmos-kit/station](https://www.npmjs.com/package/@cosmos-kit/station) | 321,081 | 50,547 | 10,520 |
-| [@cosmos-kit/exodus-extension](https://www.npmjs.com/package/@cosmos-kit/exodus-extension) | 51,919 | 3,075 | 585 |
-| [@cosmos-kit/leap-mobile](https://www.npmjs.com/package/@cosmos-kit/leap-mobile) | 419,396 | 54,281 | 11,343 |
-| [@cosmos-kit/initia](https://www.npmjs.com/package/@cosmos-kit/initia) | 4,826 | 169 | 42 |
-| [@cosmos-kit/frontier](https://www.npmjs.com/package/@cosmos-kit/frontier) | 57,226 | 3,179 | 648 |
-| [@cosmos-kit/trust](https://www.npmjs.com/package/@cosmos-kit/trust) | 284,954 | 50,457 | 10,535 |
-| [@cosmos-kit/compass](https://www.npmjs.com/package/@cosmos-kit/compass) | 60,713 | 3,109 | 594 |
-| [@cosmos-kit/keplr-mobile](https://www.npmjs.com/package/@cosmos-kit/keplr-mobile) | 446,849 | 54,532 | 11,387 |
-| [@cosmos-kit/keplr-extension](https://www.npmjs.com/package/@cosmos-kit/keplr-extension) | 467,994 | 55,307 | 11,489 |
-| [@cosmos-kit/ninji-extension](https://www.npmjs.com/package/@cosmos-kit/ninji-extension) | 10,604 | 475 | 104 |
-| [@cosmos-kit/compass-extension](https://www.npmjs.com/package/@cosmos-kit/compass-extension) | 66,969 | 3,169 | 608 |
-| [@cosmos-kit/xdefi-extension](https://www.npmjs.com/package/@cosmos-kit/xdefi-extension) | 339,568 | 50,645 | 10,659 |
-| [@cosmos-kit/okxwallet](https://www.npmjs.com/package/@cosmos-kit/okxwallet) | 287,682 | 47,823 | 10,081 |
-| [@cosmos-kit/omni](https://www.npmjs.com/package/@cosmos-kit/omni) | 61,919 | 3,169 | 597 |
-| [@cosmos-kit/keplr](https://www.npmjs.com/package/@cosmos-kit/keplr) | 448,336 | 54,657 | 11,508 |
-| [@cosmos-kit/omni-mobile](https://www.npmjs.com/package/@cosmos-kit/omni-mobile) | 63,955 | 3,227 | 623 |
-| [@cosmos-kit/leap-metamask-cosmos-snap](https://www.npmjs.com/package/@cosmos-kit/leap-metamask-cosmos-snap) | 383,615 | 54,126 | 11,207 |
+| *Total* | 8,107,429 | 1,050,821 | 229,114 |
+| [@cosmos-kit/frontier-extension](https://www.npmjs.com/package/@cosmos-kit/frontier-extension) | 58,684 | 3,486 | 911 |
+| [@cosmos-kit/ledger](https://www.npmjs.com/package/@cosmos-kit/ledger) | 59,339 | 4,089 | 933 |
+| [@cosmos-kit/cosmos-extension-metamask](https://www.npmjs.com/package/@cosmos-kit/cosmos-extension-metamask) | 31,257 | 2,363 | 754 |
+| [@cosmos-kit/fin](https://www.npmjs.com/package/@cosmos-kit/fin) | 52,026 | 3,481 | 958 |
+| [@cosmos-kit/coin98-extension](https://www.npmjs.com/package/@cosmos-kit/coin98-extension) | 57,288 | 3,568 | 968 |
+| [@cosmos-kit/okxwallet-extension](https://www.npmjs.com/package/@cosmos-kit/okxwallet-extension) | 323,741 | 49,918 | 10,738 |
+| [@cosmos-kit/trust-mobile](https://www.npmjs.com/package/@cosmos-kit/trust-mobile) | 286,918 | 50,362 | 10,808 |
+| [@cosmos-kit/shell](https://www.npmjs.com/package/@cosmos-kit/shell) | 53,601 | 3,294 | 829 |
+| [@cosmos-kit/leap-capsule-social-login](https://www.npmjs.com/package/@cosmos-kit/leap-capsule-social-login) | 5,044 | 445 | 87 |
+| [@cosmos-kit/cosmostation-extension](https://www.npmjs.com/package/@cosmos-kit/cosmostation-extension) | 404,611 | 52,399 | 11,213 |
+| [@cosmos-kit/vectis](https://www.npmjs.com/package/@cosmos-kit/vectis) | 73,383 | 3,505 | 867 |
+| [@cosmos-kit/fin-extension](https://www.npmjs.com/package/@cosmos-kit/fin-extension) | 57,299 | 3,430 | 931 |
+| [@cosmos-kit/ninji](https://www.npmjs.com/package/@cosmos-kit/ninji) | 9,971 | 567 | 253 |
+| [@cosmos-kit/station-extension](https://www.npmjs.com/package/@cosmos-kit/station-extension) | 323,060 | 50,400 | 10,744 |
+| [@cosmos-kit/coin98](https://www.npmjs.com/package/@cosmos-kit/coin98) | 57,548 | 3,516 | 954 |
+| [@cosmos-kit/leap-extension](https://www.npmjs.com/package/@cosmos-kit/leap-extension) | 453,046 | 54,697 | 11,752 |
+| [@cosmos-kit/exodus](https://www.npmjs.com/package/@cosmos-kit/exodus) | 51,508 | 3,465 | 927 |
+| [@cosmos-kit/trust-extension](https://www.npmjs.com/package/@cosmos-kit/trust-extension) | 276,979 | 50,079 | 10,724 |
+| [@cosmos-kit/leap](https://www.npmjs.com/package/@cosmos-kit/leap) | 432,762 | 54,618 | 11,872 |
+| [@cosmos-kit/xdefi](https://www.npmjs.com/package/@cosmos-kit/xdefi) | 322,260 | 49,745 | 10,589 |
+| [@cosmos-kit/web3auth](https://www.npmjs.com/package/@cosmos-kit/web3auth) | 24,654 | 1,478 | 500 |
+| [@cosmos-kit/initia-extension](https://www.npmjs.com/package/@cosmos-kit/initia-extension) | 5,112 | 251 | 103 |
+| [@cosmos-kit/cosmostation](https://www.npmjs.com/package/@cosmos-kit/cosmostation) | 385,668 | 51,876 | 11,184 |
+| [@cosmos-kit/shell-extension](https://www.npmjs.com/package/@cosmos-kit/shell-extension) | 54,136 | 3,391 | 846 |
+| [@cosmos-kit/cosmostation-mobile](https://www.npmjs.com/package/@cosmos-kit/cosmostation-mobile) | 380,986 | 51,671 | 11,161 |
+| [@cosmos-kit/vectis-extension](https://www.npmjs.com/package/@cosmos-kit/vectis-extension) | 72,267 | 3,447 | 868 |
+| [@cosmos-kit/station](https://www.npmjs.com/package/@cosmos-kit/station) | 322,709 | 50,118 | 10,667 |
+| [@cosmos-kit/exodus-extension](https://www.npmjs.com/package/@cosmos-kit/exodus-extension) | 52,315 | 3,431 | 928 |
+| [@cosmos-kit/leap-mobile](https://www.npmjs.com/package/@cosmos-kit/leap-mobile) | 420,966 | 54,045 | 11,630 |
+| [@cosmos-kit/initia](https://www.npmjs.com/package/@cosmos-kit/initia) | 4,896 | 239 | 107 |
+| [@cosmos-kit/frontier](https://www.npmjs.com/package/@cosmos-kit/frontier) | 57,534 | 3,463 | 903 |
+| [@cosmos-kit/trust](https://www.npmjs.com/package/@cosmos-kit/trust) | 286,636 | 50,092 | 10,733 |
+| [@cosmos-kit/compass](https://www.npmjs.com/package/@cosmos-kit/compass) | 61,111 | 3,481 | 951 |
+| [@cosmos-kit/keplr-mobile](https://www.npmjs.com/package/@cosmos-kit/keplr-mobile) | 448,339 | 54,308 | 11,686 |
+| [@cosmos-kit/keplr-extension](https://www.npmjs.com/package/@cosmos-kit/keplr-extension) | 469,494 | 55,094 | 11,802 |
+| [@cosmos-kit/ninji-extension](https://www.npmjs.com/package/@cosmos-kit/ninji-extension) | 10,780 | 647 | 264 |
+| [@cosmos-kit/compass-extension](https://www.npmjs.com/package/@cosmos-kit/compass-extension) | 67,348 | 3,543 | 966 |
+| [@cosmos-kit/xdefi-extension](https://www.npmjs.com/package/@cosmos-kit/xdefi-extension) | 341,064 | 50,090 | 10,687 |
+| [@cosmos-kit/okxwallet](https://www.npmjs.com/package/@cosmos-kit/okxwallet) | 289,163 | 47,278 | 10,107 |
+| [@cosmos-kit/omni](https://www.npmjs.com/package/@cosmos-kit/omni) | 62,282 | 3,517 | 920 |
+| [@cosmos-kit/keplr](https://www.npmjs.com/package/@cosmos-kit/keplr) | 449,796 | 54,446 | 11,817 |
+| [@cosmos-kit/omni-mobile](https://www.npmjs.com/package/@cosmos-kit/omni-mobile) | 64,345 | 3,582 | 941 |
+| [@cosmos-kit/leap-metamask-cosmos-snap](https://www.npmjs.com/package/@cosmos-kit/leap-metamask-cosmos-snap) | 385,503 | 53,906 | 11,531 |
 
 ### cosmwasm
 
 | Name | Total | Monthly | Weekly |
 | ------- | ------ | ------- | ----- |
-| *Total* | 1,925,344 | 138,943 | 26,042 |
-| [@cosmwasm/ts-codegen](https://www.npmjs.com/package/@cosmwasm/ts-codegen) | 940,706 | 68,741 | 12,940 |
-| [@cosmwasm/ts-codegen-types](https://www.npmjs.com/package/@cosmwasm/ts-codegen-types) | 41,054 | 1,249 | 174 |
-| [@cosmwasm/ts-codegen-ast](https://www.npmjs.com/package/@cosmwasm/ts-codegen-ast) | 41,417 | 1,393 | 187 |
-| [wasm-ast-types](https://www.npmjs.com/package/wasm-ast-types) | 896,703 | 67,384 | 12,723 |
-| [cosmwasm-typescript-gen](https://www.npmjs.com/package/cosmwasm-typescript-gen) | 5,464 | 176 | 18 |
+| *Total* | 1,928,912 | 138,972 | 27,149 |
+| [@cosmwasm/ts-codegen](https://www.npmjs.com/package/@cosmwasm/ts-codegen) | 942,456 | 68,731 | 13,423 |
+| [@cosmwasm/ts-codegen-types](https://www.npmjs.com/package/@cosmwasm/ts-codegen-types) | 41,212 | 1,380 | 315 |
+| [@cosmwasm/ts-codegen-ast](https://www.npmjs.com/package/@cosmwasm/ts-codegen-ast) | 41,577 | 1,526 | 328 |
+| [wasm-ast-types](https://www.npmjs.com/package/wasm-ast-types) | 898,229 | 67,179 | 13,065 |
+| [cosmwasm-typescript-gen](https://www.npmjs.com/package/cosmwasm-typescript-gen) | 5,438 | 156 | 18 |
 
 ### interchain-ui
 
 | Name | Total | Monthly | Weekly |
 | ------- | ------ | ------- | ----- |
-| *Total* | 146,685 | 6,311 | 1,285 |
-| [@interchain-ui/react](https://www.npmjs.com/package/@interchain-ui/react) | 138,992 | 6,143 | 1,187 |
-| [@interchain-ui/vue](https://www.npmjs.com/package/@interchain-ui/vue) | 7,693 | 168 | 98 |
+| *Total* | 147,055 | 6,580 | 1,537 |
+| [@interchain-ui/react](https://www.npmjs.com/package/@interchain-ui/react) | 139,357 | 6,408 | 1,435 |
+| [@interchain-ui/vue](https://www.npmjs.com/package/@interchain-ui/vue) | 7,698 | 172 | 102 |
 
 ### telescope
 
 | Name | Total | Monthly | Weekly |
 | ------- | ------ | ------- | ----- |
-| *Total* | 5,044,276 | 547,620 | 107,779 |
-| [@cosmology/telescope](https://www.npmjs.com/package/@cosmology/telescope) | 371,633 | 53,956 | 11,138 |
-| [@cosmology/lcd](https://www.npmjs.com/package/@cosmology/lcd) | 343,930 | 56,360 | 12,214 |
-| [@cosmology/ast](https://www.npmjs.com/package/@cosmology/ast) | 402,359 | 63,079 | 12,402 |
-| [@cosmology/types](https://www.npmjs.com/package/@cosmology/types) | 546,637 | 109,553 | 22,256 |
-| [@cosmology/utils](https://www.npmjs.com/package/@cosmology/utils) | 546,841 | 109,497 | 22,206 |
-| [@cosmology/proto-parser](https://www.npmjs.com/package/@cosmology/proto-parser) | 545,993 | 109,374 | 22,227 |
-| [@osmonauts/telescope](https://www.npmjs.com/package/@osmonauts/telescope) | 277,969 | 4,442 | 676 |
-| [@osmonauts/lcd](https://www.npmjs.com/package/@osmonauts/lcd) | 899,611 | 25,510 | 3,532 |
-| [@osmonauts/ast](https://www.npmjs.com/package/@osmonauts/ast) | 274,460 | 4,101 | 380 |
-| [@osmonauts/utils](https://www.npmjs.com/package/@osmonauts/utils) | 261,047 | 3,804 | 186 |
-| [@osmonauts/types](https://www.npmjs.com/package/@osmonauts/types) | 286,109 | 3,990 | 267 |
-| [@osmonauts/proto-parser](https://www.npmjs.com/package/@osmonauts/proto-parser) | 287,687 | 3,954 | 295 |
+| *Total* | 5,057,461 | 546,080 | 110,009 |
+| [@cosmology/telescope](https://www.npmjs.com/package/@cosmology/telescope) | 373,447 | 53,718 | 11,281 |
+| [@cosmology/lcd](https://www.npmjs.com/package/@cosmology/lcd) | 346,346 | 57,346 | 12,864 |
+| [@cosmology/ast](https://www.npmjs.com/package/@cosmology/ast) | 404,463 | 62,633 | 12,546 |
+| [@cosmology/types](https://www.npmjs.com/package/@cosmology/types) | 550,039 | 108,665 | 22,295 |
+| [@cosmology/utils](https://www.npmjs.com/package/@cosmology/utils) | 550,245 | 108,609 | 22,258 |
+| [@cosmology/proto-parser](https://www.npmjs.com/package/@cosmology/proto-parser) | 549,392 | 108,483 | 22,285 |
+| [@osmonauts/telescope](https://www.npmjs.com/package/@osmonauts/telescope) | 277,155 | 4,416 | 738 |
+| [@osmonauts/lcd](https://www.npmjs.com/package/@osmonauts/lcd) | 899,625 | 26,494 | 4,375 |
+| [@osmonauts/ast](https://www.npmjs.com/package/@osmonauts/ast) | 273,745 | 4,061 | 453 |
+| [@osmonauts/utils](https://www.npmjs.com/package/@osmonauts/utils) | 260,544 | 3,781 | 237 |
+| [@osmonauts/types](https://www.npmjs.com/package/@osmonauts/types) | 285,438 | 3,952 | 322 |
+| [@osmonauts/proto-parser](https://www.npmjs.com/package/@osmonauts/proto-parser) | 287,022 | 3,922 | 355 |
 
 ### dydx
 
 | Name | Total | Monthly | Weekly |
 | ------- | ------ | ------- | ----- |
-| *Total* | 67,984 | 2,566 | 473 |
-| [@dydxprotocol/v4-client-js](https://www.npmjs.com/package/@dydxprotocol/v4-client-js) | 67,984 | 2,566 | 473 |
+| *Total* | 68,416 | 2,936 | 852 |
+| [@dydxprotocol/v4-client-js](https://www.npmjs.com/package/@dydxprotocol/v4-client-js) | 68,416 | 2,936 | 852 |
 
 ### stargaze
 
 | Name | Total | Monthly | Weekly |
 | ------- | ------ | ------- | ----- |
-| *Total* | 14,490 | 319 | 153 |
-| [stargazejs](https://www.npmjs.com/package/stargazejs) | 10,680 | 169 | 61 |
+| *Total* | 14,373 | 336 | 171 |
+| [stargazejs](https://www.npmjs.com/package/stargazejs) | 10,552 | 175 | 68 |
 | [@stargaze-zone/chain](https://www.npmjs.com/package/@stargaze-zone/chain) | 951 | 41 | 40 |
 | [@stargaze-zone/contracts](https://www.npmjs.com/package/@stargaze-zone/contracts) | 1,107 | 41 | 39 |
-| [stargaze-query](https://www.npmjs.com/package/stargaze-query) | 1,752 | 68 | 13 |
+| [stargaze-query](https://www.npmjs.com/package/stargaze-query) | 1,763 | 79 | 24 |
 
 ### stride
 
 | Name | Total | Monthly | Weekly |
 | ------- | ------ | ------- | ----- |
-| *Total* | 22,730 | 473 | 103 |
-| [stridejs](https://www.npmjs.com/package/stridejs) | 22,730 | 473 | 103 |
+| *Total* | 22,699 | 486 | 101 |
+| [stridejs](https://www.npmjs.com/package/stridejs) | 22,699 | 486 | 101 |
 
 ### quicksilver
 
 | Name | Total | Monthly | Weekly |
 | ------- | ------ | ------- | ----- |
-| *Total* | 4,429 | 99 | 50 |
-| [quicksilverjs](https://www.npmjs.com/package/quicksilverjs) | 4,429 | 99 | 50 |
+| *Total* | 4,429 | 99 | 49 |
+| [quicksilverjs](https://www.npmjs.com/package/quicksilverjs) | 4,429 | 99 | 49 |
 
 ### juno
 
 | Name | Total | Monthly | Weekly |
 | ------- | ------ | ------- | ----- |
-| *Total* | 20,917 | 938 | 181 |
-| [juno-network](https://www.npmjs.com/package/juno-network) | 18,661 | 899 | 148 |
-| [@juno-network/assets](https://www.npmjs.com/package/@juno-network/assets) | 2,256 | 39 | 33 |
+| *Total* | 20,936 | 980 | 205 |
+| [juno-network](https://www.npmjs.com/package/juno-network) | 18,687 | 939 | 172 |
+| [@juno-network/assets](https://www.npmjs.com/package/@juno-network/assets) | 2,249 | 41 | 33 |
 
 ### osmosis
 
 | Name | Total | Monthly | Weekly |
 | ------- | ------ | ------- | ----- |
-| *Total* | 363,655 | 17,687 | 2,548 |
-| [@osmonauts/math](https://www.npmjs.com/package/@osmonauts/math) | 28,929 | 1,488 | 168 |
-| [osmojs](https://www.npmjs.com/package/osmojs) | 316,304 | 15,003 | 2,196 |
-| [osmo-query](https://www.npmjs.com/package/osmo-query) | 18,422 | 1,196 | 184 |
+| *Total* | 363,791 | 18,086 | 2,699 |
+| [@osmonauts/math](https://www.npmjs.com/package/@osmonauts/math) | 28,956 | 1,543 | 212 |
+| [osmojs](https://www.npmjs.com/package/osmojs) | 316,353 | 15,315 | 2,269 |
+| [osmo-query](https://www.npmjs.com/package/osmo-query) | 18,482 | 1,228 | 218 |
 
 ### chain-registry
 
 | Name | Total | Monthly | Weekly |
 | ------- | ------ | ------- | ----- |
-| *Total* | 5,695,238 | 769,942 | 158,685 |
-| [@chain-registry/client](https://www.npmjs.com/package/@chain-registry/client) | 491,090 | 90,317 | 18,807 |
-| [@chain-registry/types](https://www.npmjs.com/package/@chain-registry/types) | 1,981,562 | 256,872 | 52,295 |
-| [@chain-registry/keplr](https://www.npmjs.com/package/@chain-registry/keplr) | 872,210 | 133,595 | 28,168 |
-| [@chain-registry/cosmostation](https://www.npmjs.com/package/@chain-registry/cosmostation) | 709,237 | 106,437 | 22,271 |
-| [@chain-registry/osmosis](https://www.npmjs.com/package/@chain-registry/osmosis) | 82,533 | 3,770 | 668 |
-| [@chain-registry/juno](https://www.npmjs.com/package/@chain-registry/juno) | 34,240 | 3,313 | 1,007 |
-| [@chain-registry/assets](https://www.npmjs.com/package/@chain-registry/assets) | 52,411 | 4,204 | 1,120 |
-| [@chain-registry/utils](https://www.npmjs.com/package/@chain-registry/utils) | 613,209 | 92,463 | 19,327 |
-| [chain-registry](https://www.npmjs.com/package/chain-registry) | 858,746 | 78,971 | 15,022 |
+| *Total* | 5,719,376 | 771,694 | 165,089 |
+| [@chain-registry/client](https://www.npmjs.com/package/@chain-registry/client) | 494,491 | 90,650 | 19,502 |
+| [@chain-registry/types](https://www.npmjs.com/package/@chain-registry/types) | 1,989,106 | 257,924 | 54,629 |
+| [@chain-registry/keplr](https://www.npmjs.com/package/@chain-registry/keplr) | 876,595 | 133,453 | 29,121 |
+| [@chain-registry/cosmostation](https://www.npmjs.com/package/@chain-registry/cosmostation) | 712,470 | 105,755 | 22,740 |
+| [@chain-registry/osmosis](https://www.npmjs.com/package/@chain-registry/osmosis) | 82,572 | 3,899 | 766 |
+| [@chain-registry/juno](https://www.npmjs.com/package/@chain-registry/juno) | 34,389 | 3,397 | 1,074 |
+| [@chain-registry/assets](https://www.npmjs.com/package/@chain-registry/assets) | 52,596 | 4,298 | 1,221 |
+| [@chain-registry/utils](https://www.npmjs.com/package/@chain-registry/utils) | 616,578 | 93,069 | 20,284 |
+| [chain-registry](https://www.npmjs.com/package/chain-registry) | 860,579 | 79,249 | 15,752 |
 
 ### cosmology
 
 | Name | Total | Monthly | Weekly |
 | ------- | ------ | ------- | ----- |
-| *Total* | 113,328 | 4,156 | 1,083 |
-| [cosmjs-utils](https://www.npmjs.com/package/cosmjs-utils) | 21,831 | 1,234 | 151 |
-| [@cosmology/cli](https://www.npmjs.com/package/@cosmology/cli) | 8,755 | 338 | 166 |
-| [@cosmology/core](https://www.npmjs.com/package/@cosmology/core) | 19,376 | 1,010 | 239 |
-| [cosmology](https://www.npmjs.com/package/cosmology) | 7,649 | 454 | 211 |
-| [interchain](https://www.npmjs.com/package/interchain) | 15,674 | 503 | 96 |
-| [interchain-query](https://www.npmjs.com/package/interchain-query) | 14,433 | 297 | 115 |
-| [create-cosmos-app](https://www.npmjs.com/package/create-cosmos-app) | 7,336 | 153 | 81 |
-| [create-cosmwasm-app](https://www.npmjs.com/package/create-cosmwasm-app) | 2,254 | 7 | 3 |
-| [@cosmology-ui/react](https://www.npmjs.com/package/@cosmology-ui/react) | 16,020 | 160 | 21 |
+| *Total* | 113,210 | 4,379 | 1,172 |
+| [cosmjs-utils](https://www.npmjs.com/package/cosmjs-utils) | 21,850 | 1,322 | 207 |
+| [@cosmology/cli](https://www.npmjs.com/package/@cosmology/cli) | 8,757 | 346 | 103 |
+| [@cosmology/core](https://www.npmjs.com/package/@cosmology/core) | 19,357 | 1,030 | 237 |
+| [cosmology](https://www.npmjs.com/package/cosmology) | 7,655 | 467 | 217 |
+| [interchain](https://www.npmjs.com/package/interchain) | 15,658 | 519 | 111 |
+| [interchain-query](https://www.npmjs.com/package/interchain-query) | 14,390 | 315 | 132 |
+| [create-cosmos-app](https://www.npmjs.com/package/create-cosmos-app) | 7,387 | 207 | 136 |
+| [create-cosmwasm-app](https://www.npmjs.com/package/create-cosmwasm-app) | 2,250 | 7 | 2 |
+| [@cosmology-ui/react](https://www.npmjs.com/package/@cosmology-ui/react) | 15,906 | 166 | 27 |
 
 ### starship
 
 | Name | Total | Monthly | Weekly |
 | ------- | ------ | ------- | ----- |
-| *Total* | 18,785 | 1,674 | 230 |
-| [starshipjs](https://www.npmjs.com/package/starshipjs) | 7,317 | 937 | 153 |
-| [@starship-ci/cli](https://www.npmjs.com/package/@starship-ci/cli) | 5,485 | 317 | 35 |
-| [@starship-ci/client](https://www.npmjs.com/package/@starship-ci/client) | 5,983 | 420 | 42 |
+| *Total* | 18,837 | 1,702 | 259 |
+| [starshipjs](https://www.npmjs.com/package/starshipjs) | 7,346 | 953 | 170 |
+| [@starship-ci/cli](https://www.npmjs.com/package/@starship-ci/cli) | 5,496 | 323 | 41 |
+| [@starship-ci/client](https://www.npmjs.com/package/@starship-ci/client) | 5,995 | 426 | 48 |
 
 ### launchql
 
 | Name | Total | Monthly | Weekly |
 | ------- | ------ | ------- | ----- |
-| *Total* | 11,019,712 | 513,379 | 109,345 |
-| [@launchql/db-templates](https://www.npmjs.com/package/@launchql/db-templates) | 3,455 | 125 | 103 |
-| [@launchql/db-transform](https://www.npmjs.com/package/@launchql/db-transform) | 1,515 | 12 | 5 |
-| [@launchql/ext-achievements](https://www.npmjs.com/package/@launchql/ext-achievements) | 1,776 | 7 | 6 |
-| [@launchql/ext-jobs-queue](https://www.npmjs.com/package/@launchql/ext-jobs-queue) | 2,230 | 2 | 1 |
-| [@launchql/ext-jwt-claims](https://www.npmjs.com/package/@launchql/ext-jwt-claims) | 1,948 | 46 | 43 |
-| [@launchql/ext-types](https://www.npmjs.com/package/@launchql/ext-types) | 2,356 | 12 | 4 |
-| [@launchql/faker](https://www.npmjs.com/package/@launchql/faker) | 1,967 | 61 | 10 |
-| [@launchql/inflection](https://www.npmjs.com/package/@launchql/inflection) | 2,143 | 56 | 6 |
-| [@launchql/totp](https://www.npmjs.com/package/@launchql/totp) | 1,952 | 54 | 7 |
-| [@pgql/parse](https://www.npmjs.com/package/@pgql/parse) | 51,941 | 42 | 12 |
-| [@pgsql/enums](https://www.npmjs.com/package/@pgsql/enums) | 866 | 26 | 15 |
-| [@pgsql/parser](https://www.npmjs.com/package/@pgsql/parser) | 4,484 | 2,856 | 735 |
-| [@pgsql/types](https://www.npmjs.com/package/@pgsql/types) | 544,336 | 97,180 | 21,953 |
-| [@pgsql/utils](https://www.npmjs.com/package/@pgsql/utils) | 83,447 | 35,419 | 8,465 |
-| [@pyramation/postgraphile-plugin-fulltext-filter](https://www.npmjs.com/package/@pyramation/postgraphile-plugin-fulltext-filter) | 33,575 | 1,707 | 250 |
-| [graphile-column-privileges-mutations](https://www.npmjs.com/package/graphile-column-privileges-mutations) | 2,814 | 143 | 39 |
-| [libpg-query](https://www.npmjs.com/package/libpg-query) | 2,983,784 | 124,235 | 23,321 |
+| *Total* | 11,003,071 | 536,287 | 128,939 |
+| [@launchql/db-templates](https://www.npmjs.com/package/@launchql/db-templates) | 3,454 | 122 | 102 |
+| [@launchql/db-transform](https://www.npmjs.com/package/@launchql/db-transform) | 1,515 | 13 | 5 |
+| [@launchql/ext-achievements](https://www.npmjs.com/package/@launchql/ext-achievements) | 1,779 | 11 | 9 |
+| [@launchql/ext-jobs-queue](https://www.npmjs.com/package/@launchql/ext-jobs-queue) | 2,230 | 3 | 1 |
+| [@launchql/ext-jwt-claims](https://www.npmjs.com/package/@launchql/ext-jwt-claims) | 1,947 | 46 | 42 |
+| [@launchql/ext-types](https://www.npmjs.com/package/@launchql/ext-types) | 2,357 | 14 | 5 |
+| [@launchql/faker](https://www.npmjs.com/package/@launchql/faker) | 1,968 | 62 | 10 |
+| [@launchql/inflection](https://www.npmjs.com/package/@launchql/inflection) | 2,143 | 57 | 6 |
+| [@launchql/totp](https://www.npmjs.com/package/@launchql/totp) | 1,953 | 56 | 8 |
+| [@pgql/parse](https://www.npmjs.com/package/@pgql/parse) | 51,609 | 44 | 14 |
+| [@pgsql/enums](https://www.npmjs.com/package/@pgsql/enums) | 867 | 27 | 16 |
+| [@pgsql/parser](https://www.npmjs.com/package/@pgsql/parser) | 4,617 | 2,989 | 849 |
+| [@pgsql/types](https://www.npmjs.com/package/@pgsql/types) | 550,473 | 101,527 | 25,558 |
+| [@pgsql/utils](https://www.npmjs.com/package/@pgsql/utils) | 85,024 | 35,628 | 8,706 |
+| [@pyramation/postgraphile-plugin-fulltext-filter](https://www.npmjs.com/package/@pyramation/postgraphile-plugin-fulltext-filter) | 33,611 | 1,689 | 308 |
+| [graphile-column-privileges-mutations](https://www.npmjs.com/package/graphile-column-privileges-mutations) | 2,815 | 138 | 41 |
+| [libpg-query](https://www.npmjs.com/package/libpg-query) | 2,979,380 | 130,600 | 28,593 |
 | [pg-proto-parser](https://www.npmjs.com/package/pg-proto-parser) | 4,536 | 70 | 50 |
-| [pg-query-native-latest](https://www.npmjs.com/package/pg-query-native-latest) | 360 | 4 | 2 |
-| [pg-utils](https://www.npmjs.com/package/pg-utils) | 607 | 10 | 3 |
-| [pgsql-deparser](https://www.npmjs.com/package/pgsql-deparser) | 2,441,306 | 95,464 | 20,891 |
-| [pgsql-enums](https://www.npmjs.com/package/pgsql-enums) | 2,481,564 | 95,451 | 20,835 |
-| [pgsql-parser](https://www.npmjs.com/package/pgsql-parser) | 2,366,750 | 60,397 | 12,589 |
+| [pg-query-native-latest](https://www.npmjs.com/package/pg-query-native-latest) | 359 | 4 | 2 |
+| [pg-utils](https://www.npmjs.com/package/pg-utils) | 604 | 10 | 3 |
+| [pgsql-deparser](https://www.npmjs.com/package/pgsql-deparser) | 2,435,608 | 99,483 | 24,402 |
+| [pgsql-enums](https://www.npmjs.com/package/pgsql-enums) | 2,474,742 | 99,469 | 24,347 |
+| [pgsql-parser](https://www.npmjs.com/package/pgsql-parser) | 2,359,480 | 64,225 | 15,862 |
 
 ### protobufs
 
 | Name | Total | Monthly | Weekly |
 | ------- | ------ | ------- | ----- |
-| *Total* | 3,258,804 | 146,172 | 24,670 |
-| [@protobufs/cosmos](https://www.npmjs.com/package/@protobufs/cosmos) | 369,096 | 5,141 | 303 |
-| [@protobufs/google](https://www.npmjs.com/package/@protobufs/google) | 380,984 | 6,059 | 346 |
-| [@protobufs/gogoproto](https://www.npmjs.com/package/@protobufs/gogoproto) | 380,860 | 6,029 | 347 |
-| [@protobufs/cosmwasm](https://www.npmjs.com/package/@protobufs/cosmwasm) | 141,122 | 1,029 | 147 |
-| [@protobufs/tendermint](https://www.npmjs.com/package/@protobufs/tendermint) | 365,940 | 5,101 | 306 |
-| [@protobufs/ibc](https://www.npmjs.com/package/@protobufs/ibc) | 144,019 | 1,745 | 187 |
-| [@protobufs/cosmos_proto](https://www.npmjs.com/package/@protobufs/cosmos_proto) | 370,201 | 5,074 | 296 |
-| [@protobufs/osmosis](https://www.npmjs.com/package/@protobufs/osmosis) | 10,288 | 515 | 133 |
-| [@protobufs/secret](https://www.npmjs.com/package/@protobufs/secret) | 441 | 21 | 11 |
-| [@protobufs/juno](https://www.npmjs.com/package/@protobufs/juno) | 1,583 | 106 | 10 |
-| [@protobufs/akash](https://www.npmjs.com/package/@protobufs/akash) | 580 | 10 | 4 |
-| [@protobufs/regen](https://www.npmjs.com/package/@protobufs/regen) | 542 | 8 | 6 |
-| [@protobufs/pylons](https://www.npmjs.com/package/@protobufs/pylons) | 364 | 7 | 4 |
-| [@protobufs/stargaze](https://www.npmjs.com/package/@protobufs/stargaze) | 591 | 15 | 4 |
-| [@protobufs/bcna](https://www.npmjs.com/package/@protobufs/bcna) | 476 | 8 | 4 |
-| [@protobufs/comdex](https://www.npmjs.com/package/@protobufs/comdex) | 406 | 10 | 6 |
-| [@protobufs/evmos](https://www.npmjs.com/package/@protobufs/evmos) | 290 | 7 | 5 |
-| [@protobufs/axelar](https://www.npmjs.com/package/@protobufs/axelar) | 248 | 6 | 5 |
-| [@protobufs/amino](https://www.npmjs.com/package/@protobufs/amino) | 146,896 | 1,792 | 169 |
-| [@cosmology/protobufjs](https://www.npmjs.com/package/@cosmology/protobufjs) | 681,280 | 109,608 | 22,169 |
-| [@pyramation/protobufjs](https://www.npmjs.com/package/@pyramation/protobufjs) | 262,597 | 3,881 | 208 |
+| *Total* | 3,260,957 | 145,881 | 25,728 |
+| [@protobufs/cosmos](https://www.npmjs.com/package/@protobufs/cosmos) | 368,950 | 5,202 | 421 |
+| [@protobufs/google](https://www.npmjs.com/package/@protobufs/google) | 380,867 | 6,168 | 510 |
+| [@protobufs/gogoproto](https://www.npmjs.com/package/@protobufs/gogoproto) | 380,742 | 6,138 | 511 |
+| [@protobufs/cosmwasm](https://www.npmjs.com/package/@protobufs/cosmwasm) | 141,118 | 1,055 | 175 |
+| [@protobufs/tendermint](https://www.npmjs.com/package/@protobufs/tendermint) | 365,793 | 5,164 | 425 |
+| [@protobufs/ibc](https://www.npmjs.com/package/@protobufs/ibc) | 144,082 | 1,838 | 259 |
+| [@protobufs/cosmos_proto](https://www.npmjs.com/package/@protobufs/cosmos_proto) | 370,035 | 5,137 | 414 |
+| [@protobufs/osmosis](https://www.npmjs.com/package/@protobufs/osmosis) | 10,254 | 516 | 127 |
+| [@protobufs/secret](https://www.npmjs.com/package/@protobufs/secret) | 442 | 22 | 12 |
+| [@protobufs/juno](https://www.npmjs.com/package/@protobufs/juno) | 1,583 | 108 | 12 |
+| [@protobufs/akash](https://www.npmjs.com/package/@protobufs/akash) | 580 | 11 | 5 |
+| [@protobufs/regen](https://www.npmjs.com/package/@protobufs/regen) | 542 | 9 | 7 |
+| [@protobufs/pylons](https://www.npmjs.com/package/@protobufs/pylons) | 365 | 8 | 5 |
+| [@protobufs/stargaze](https://www.npmjs.com/package/@protobufs/stargaze) | 593 | 18 | 7 |
+| [@protobufs/bcna](https://www.npmjs.com/package/@protobufs/bcna) | 475 | 8 | 4 |
+| [@protobufs/comdex](https://www.npmjs.com/package/@protobufs/comdex) | 405 | 10 | 6 |
+| [@protobufs/evmos](https://www.npmjs.com/package/@protobufs/evmos) | 290 | 6 | 5 |
+| [@protobufs/axelar](https://www.npmjs.com/package/@protobufs/axelar) | 249 | 7 | 6 |
+| [@protobufs/amino](https://www.npmjs.com/package/@protobufs/amino) | 147,004 | 1,888 | 251 |
+| [@cosmology/protobufjs](https://www.npmjs.com/package/@cosmology/protobufjs) | 684,481 | 108,730 | 22,308 |
+| [@pyramation/protobufjs](https://www.npmjs.com/package/@pyramation/protobufjs) | 262,107 | 3,838 | 258 |
 
 ### utils
 
 | Name | Total | Monthly | Weekly |
 | ------- | ------ | ------- | ----- |
-| *Total* | 1,817,063 | 175,999 | 34,479 |
-| [ast-stringify](https://www.npmjs.com/package/ast-stringify) | 792,958 | 67,327 | 12,603 |
-| [nested-obj](https://www.npmjs.com/package/nested-obj) | 124,110 | 36,643 | 8,627 |
-| [schema-typescript](https://www.npmjs.com/package/schema-typescript) | 10,407 | 868 | 134 |
-| [etag-hash](https://www.npmjs.com/package/etag-hash) | 48,523 | 1,346 | 148 |
-| [uuid-hash](https://www.npmjs.com/package/uuid-hash) | 13,961 | 457 | 53 |
-| [inquirerer](https://www.npmjs.com/package/inquirerer) | 808,631 | 68,385 | 12,792 |
-| [publish-scripts](https://www.npmjs.com/package/publish-scripts) | 17,126 | 933 | 86 |
-| [skitch-template](https://www.npmjs.com/package/skitch-template) | 1,347 | 40 | 36 |
+| *Total* | 1,822,023 | 176,065 | 35,664 |
+| [ast-stringify](https://www.npmjs.com/package/ast-stringify) | 794,483 | 67,101 | 12,935 |
+| [nested-obj](https://www.npmjs.com/package/nested-obj) | 125,845 | 36,980 | 9,008 |
+| [schema-typescript](https://www.npmjs.com/package/schema-typescript) | 10,429 | 854 | 129 |
+| [etag-hash](https://www.npmjs.com/package/etag-hash) | 48,554 | 1,421 | 199 |
+| [uuid-hash](https://www.npmjs.com/package/uuid-hash) | 13,957 | 478 | 73 |
+| [inquirerer](https://www.npmjs.com/package/inquirerer) | 810,200 | 68,171 | 13,133 |
+| [publish-scripts](https://www.npmjs.com/package/publish-scripts) | 17,209 | 1,014 | 145 |
+| [skitch-template](https://www.npmjs.com/package/skitch-template) | 1,346 | 46 | 42 |
 
 
 ## Understanding Downloads
