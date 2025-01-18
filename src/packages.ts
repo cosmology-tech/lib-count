@@ -2,14 +2,82 @@ import { Packages } from "./types";
 
 // Structured as categories with their respective packages
 export const packages: Packages = {
+    "interchain-js": [
+        'interchainjs',
+        'injectivejs',
+        '@interchainjs/utils',
+        '@interchainjs/types',
+        '@interchainjs/auth',
+        '@interchainjs/cosmos',
+        '@interchainjs/cosmos-msgs',
+        '@interchainjs/cosmos-query',
+        '@interchainjs/ethereum',
+        '@interchainjs/injective',
+        '@interchainjs/cosmos-types',
+        '@interchainjs/ethermint',
+        'injective-query',
+        'injective-react',
+        'injective-vue',
+        'interchain-react'
+    ],
     "cosmos-kit": [
+        'interchain-kit',
+        '@interchain-kit/core',
+        '@interchain-kit/react',
+        '@interchain-kit/vue',
+
         'cosmos-kit',
         '@cosmos-kit/core',
         '@cosmos-kit/react',
         '@cosmos-kit/react-lite',
         '@cosmos-kit/walletconnect'
     ],
+    "interchain-kit": [
+        'interchain-kit',
+        '@interchain-kit/core',
+        '@interchain-kit/react',
+        '@interchain-kit/vue'
+    ],
+    "interchain-kit-wallets": [
+
+        '@interchain-kit/okx-extension',
+        '@interchain-kit/mock-wallet',
+        '@interchain-kit/leap-extension',
+        '@interchain-kit/ledger',
+        '@interchain-kit/coin98-extension',
+        '@interchain-kit/leap-mobile',
+        '@interchain-kit/keplr-mobile',
+        '@interchain-kit/keplr-extension',
+        '@interchain-kit/frontier-extension',
+        '@interchain-kit/station-extension',
+        '@interchain-kit/cosmostation-extension',
+        '@interchain-kit/galaxy-station-extension',
+        '@interchain-kit/vue',
+        '@interchain-kit/cosmos-extension-metamask',
+        '@interchain-kit/trust-extension',
+        '@interchain-kit/leap-cosmos-extension-metamask',
+        '@interchain-kit/xdefi-extension',
+    ],
     "cosmos-kit-wallets": [
+
+        '@interchain-kit/okx-extension',
+        '@interchain-kit/mock-wallet',
+        '@interchain-kit/leap-extension',
+        '@interchain-kit/ledger',
+        '@interchain-kit/coin98-extension',
+        '@interchain-kit/leap-mobile',
+        '@interchain-kit/keplr-mobile',
+        '@interchain-kit/keplr-extension',
+        '@interchain-kit/frontier-extension',
+        '@interchain-kit/station-extension',
+        '@interchain-kit/cosmostation-extension',
+        '@interchain-kit/galaxy-station-extension',
+        '@interchain-kit/vue',
+        '@interchain-kit/cosmos-extension-metamask',
+        '@interchain-kit/trust-extension',
+        '@interchain-kit/leap-cosmos-extension-metamask',
+        '@interchain-kit/xdefi-extension',
+
         '@cosmos-kit/frontier-extension',
         '@cosmos-kit/ledger',
         '@cosmos-kit/cosmos-extension-metamask',
