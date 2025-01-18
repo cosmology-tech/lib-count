@@ -18,9 +18,9 @@
 
 | Name | Total | Monthly | Weekly |
 | ------- | ------ | ------- | ----- |
-| *Total* | 40,107,209 | 3,466,889 | 898,333 |
+| *Total* | 40,108,182 | 3,466,925 | 898,336 |
 | Web2 | 10,976,823 | 582,295 | 194,542 |
-| Web3 | 27,266,113 | 2,728,149 | 667,913 |
+| Web3 | 27,267,086 | 2,728,185 | 667,916 |
 | Utils | 1,864,273 | 156,445 | 35,878 |
 
 ### Software Download Count Repository
@@ -46,6 +46,7 @@ This repository contains detailed download statistics for all Interweb, Inc.'s s
 ## Table of Contents
 - [interchain-js](#interchain-js)
 - [cosmos-kit](#cosmos-kit)
+- [create-cosmos-app](#create-cosmos-app)
 - [interchain-kit-wallets](#interchain-kit-wallets)
 - [cosmos-kit-wallets](#cosmos-kit-wallets)
 - [cosmwasm](#cosmwasm)
@@ -100,6 +101,14 @@ This repository contains detailed download statistics for all Interweb, Inc.'s s
 | [@cosmos-kit/react](https://www.npmjs.com/package/@cosmos-kit/react) | 150,325 | 6,599 | 1,904 |
 | [@cosmos-kit/react-lite](https://www.npmjs.com/package/@cosmos-kit/react-lite) | 182,684 | 7,893 | 2,290 |
 | [@cosmos-kit/walletconnect](https://www.npmjs.com/package/@cosmos-kit/walletconnect) | 497,471 | 51,203 | 11,218 |
+
+### create-cosmos-app
+
+| Name | Total | Monthly | Weekly |
+| ------- | ------ | ------- | ----- |
+| *Total* | 7,249 | 245 | 13 |
+| [create-cosmos-app](https://www.npmjs.com/package/create-cosmos-app) | 6,276 | 209 | 10 |
+| [create-interchain-app](https://www.npmjs.com/package/create-interchain-app) | 973 | 36 | 3 |
 
 ### interchain-kit-wallets
 
@@ -276,14 +285,13 @@ This repository contains detailed download statistics for all Interweb, Inc.'s s
 
 | Name | Total | Monthly | Weekly |
 | ------- | ------ | ------- | ----- |
-| *Total* | 120,431 | 14,482 | 9,795 |
+| *Total* | 114,155 | 14,273 | 9,785 |
 | [cosmjs-utils](https://www.npmjs.com/package/cosmjs-utils) | 21,626 | 916 | 200 |
 | [@cosmology/cli](https://www.npmjs.com/package/@cosmology/cli) | 8,493 | 328 | 13 |
 | [@cosmology/core](https://www.npmjs.com/package/@cosmology/core) | 19,249 | 845 | 182 |
 | [cosmology](https://www.npmjs.com/package/cosmology) | 7,436 | 317 | 12 |
 | [interchain](https://www.npmjs.com/package/interchain) | 26,634 | 11,439 | 9,276 |
 | [interchain-query](https://www.npmjs.com/package/interchain-query) | 14,209 | 319 | 87 |
-| [create-cosmos-app](https://www.npmjs.com/package/create-cosmos-app) | 6,276 | 209 | 10 |
 | [create-cosmwasm-app](https://www.npmjs.com/package/create-cosmwasm-app) | 1,517 | 11 | 4 |
 | [@cosmology-ui/react](https://www.npmjs.com/package/@cosmology-ui/react) | 14,991 | 98 | 11 |
 

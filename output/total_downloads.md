@@ -35,6 +35,14 @@ Total Downloads: 1,578,680
 | @cosmos-kit/react-lite | 182,684 |
 | @cosmos-kit/walletconnect | 497,471 |
 
+### create-cosmos-app
+Total Downloads: 7,249
+
+| Package | Downloads |
+| ------- | --------- |
+| create-cosmos-app | 6,276 |
+| create-interchain-app | 973 |
+
 ### interchain-kit
 Total Downloads: 18,753
 

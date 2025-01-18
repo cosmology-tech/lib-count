@@ -34,6 +34,13 @@
       "@cosmos-kit/walletconnect": 51203
     }
   },
+  "create-cosmos-app": {
+    "total": 245,
+    "packages": {
+      "create-cosmos-app": 209,
+      "create-interchain-app": 36
+    }
+  },
   "interchain-kit": {
     "total": 8462,
     "packages": {
