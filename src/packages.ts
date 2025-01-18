@@ -2,6 +2,14 @@ import { Packages } from "./types";
 
 // Structured as categories with their respective packages
 export const packages: Packages = {
+    "hyperwebjs": [
+        "create-hyperweb-app",
+        '@hyperweb/cli',
+        'hyperwebjs',
+        'hyperweb-kit',
+        '@hyperweb/build',
+        '@hyperweb/ts-json-schema'
+    ],
     "interchain-js": [
         'interchainjs',
         'injectivejs',
