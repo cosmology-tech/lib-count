@@ -1,3 +1,15 @@
+### hyperwebjs
+Total Downloads: 1,584
+
+| Package | Downloads |
+| ------- | --------- |
+| create-hyperweb-app | 535 |
+| @hyperweb/cli | 99 |
+| hyperwebjs | 559 |
+| hyperweb-kit | 100 |
+| @hyperweb/build | 196 |
+| @hyperweb/ts-json-schema | 95 |
+
 ### interchain-js
 Total Downloads: 77,057
 

@@ -1,4 +1,15 @@
 {
+  "hyperwebjs": {
+    "total": 1584,
+    "packages": {
+      "create-hyperweb-app": 535,
+      "@hyperweb/cli": 99,
+      "hyperwebjs": 559,
+      "hyperweb-kit": 100,
+      "@hyperweb/build": 196,
+      "@hyperweb/ts-json-schema": 95
+    }
+  },
   "interchain-js": {
     "total": 77057,
     "packages": {

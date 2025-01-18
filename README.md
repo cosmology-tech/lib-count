@@ -18,9 +18,9 @@
 
 | Name | Total | Monthly | Weekly |
 | ------- | ------ | ------- | ----- |
-| *Total* | 40,108,182 | 3,466,925 | 898,336 |
+| *Total* | 40,109,766 | 3,467,023 | 898,339 |
 | Web2 | 10,976,823 | 582,295 | 194,542 |
-| Web3 | 27,267,086 | 2,728,185 | 667,916 |
+| Web3 | 27,268,670 | 2,728,283 | 667,919 |
 | Utils | 1,864,273 | 156,445 | 35,878 |
 
 ### Software Download Count Repository
@@ -44,6 +44,7 @@ This repository contains detailed download statistics for all Interweb, Inc.'s s
 - [Downloads Summary CSV](output/downloads_summary.csv): A comprehensive CSV file containing summary statistics for each package, including total, monthly, and weekly downloads. The data reflects the most recent snapshot, with intervals ending at the snapshot's current time.
 - [Historical Snapshots](output/historical): History of the summary CSV files for each snapshot.
 ## Table of Contents
+- [hyperwebjs](#hyperwebjs)
 - [interchain-js](#interchain-js)
 - [cosmos-kit](#cosmos-kit)
 - [create-cosmos-app](#create-cosmos-app)
@@ -64,6 +65,18 @@ This repository contains detailed download statistics for all Interweb, Inc.'s s
 - [launchql](#launchql)
 - [protobufs](#protobufs)
 - [utils](#utils)
+
+### hyperwebjs
+
+| Name | Total | Monthly | Weekly |
+| ------- | ------ | ------- | ----- |
+| *Total* | 1,584 | 98 | 3 |
+| [create-hyperweb-app](https://www.npmjs.com/package/create-hyperweb-app) | 535 | 19 | 1 |
+| [@hyperweb/cli](https://www.npmjs.com/package/@hyperweb/cli) | 99 | 8 | 0 |
+| [hyperwebjs](https://www.npmjs.com/package/hyperwebjs) | 559 | 43 | 2 |
+| [hyperweb-kit](https://www.npmjs.com/package/hyperweb-kit) | 100 | 5 | 0 |
+| [@hyperweb/build](https://www.npmjs.com/package/@hyperweb/build) | 196 | 15 | 0 |
+| [@hyperweb/ts-json-schema](https://www.npmjs.com/package/@hyperweb/ts-json-schema) | 95 | 8 | 0 |
 
 ### interchain-js
 
