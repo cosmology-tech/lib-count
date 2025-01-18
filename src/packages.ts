@@ -32,6 +32,10 @@ export const packages: Packages = {
         '@cosmos-kit/react-lite',
         '@cosmos-kit/walletconnect'
     ],
+    "create-cosmos-app": [
+        'create-cosmos-app',
+        'create-interchain-app'
+    ],
     "interchain-kit": [
         'interchain-kit',
         '@interchain-kit/core',
