@@ -90,7 +90,7 @@ export function generateReadme(data: MergedPackageData) {
     total: 0
   };
 
-  const cosmology = {
+  const hyperweb = {
     monthly: 0,
     weekly: 0,
     total: 0
@@ -142,9 +142,9 @@ export function generateReadme(data: MergedPackageData) {
           launchql.monthly += monthly;
           break;
         default:
-          cosmology.weekly += weekly;
-          cosmology.total += total;
-          cosmology.monthly += monthly;
+          hyperweb.weekly += weekly;
+          hyperweb.total += total;
+          hyperweb.monthly += monthly;
           break;
       }
     }
@@ -168,20 +168,20 @@ export function generateReadme(data: MergedPackageData) {
   }
 
   addCat(launchql, 'Web2')
-  addCat(cosmology, 'Web3')
+  addCat(hyperweb, 'Web3')
   addCat(utils, 'Utils')
 
   body += `
   
   <p align="center" width="100%">
-   <img src="https://github.com/cosmology-tech/lib-count/assets/545047/c379f2e6-7fd8-436c-bd8d-5e3a3837489e" alt="webincubator" width="120"><br />
-   <img height="20" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fcosmology-tech%2Flib-count%2Fmain%2Foutput%2Fbadges%2Flib-count%2Ftotal_downloads.json"/>
-   <img height="20" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fcosmology-tech%2Flib-count%2Fmain%2Foutput%2Fbadges%2Flib-count%2Fmonthly_downloads.json"/>
-   <img height="20" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fcosmology-tech%2Flib-count%2Fmain%2Foutput%2Fbadges%2Flib-count%2Fweekly_downloads.json"/>
+   <img src="https://github.com/hyperweb-io/lib-count/assets/545047/c379f2e6-7fd8-436c-bd8d-5e3a3837489e" alt="webincubator" width="120"><br />
+   <img height="20" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fhyperweb-io%2Flib-count%2Fmain%2Foutput%2Fbadges%2Flib-count%2Ftotal_downloads.json"/>
+   <img height="20" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fhyperweb-io%2Flib-count%2Fmain%2Foutput%2Fbadges%2Flib-count%2Fmonthly_downloads.json"/>
+   <img height="20" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fhyperweb-io%2Flib-count%2Fmain%2Foutput%2Fbadges%2Flib-count%2Fweekly_downloads.json"/>
    <br>
-   <img height="20" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fcosmology-tech%2Flib-count%2Fmain%2Foutput%2Fbadges%2Flib-count%2Flaunchql_category.json"/>
-   <img height="20" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fcosmology-tech%2Flib-count%2Fmain%2Foutput%2Fbadges%2Flib-count%2Fcosmology_category.json"/>
-   <img height="20" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fcosmology-tech%2Flib-count%2Fmain%2Foutput%2Fbadges%2Flib-count%2Futils_category.json"/>
+   <img height="20" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fhyperweb-io%2Flib-count%2Fmain%2Foutput%2Fbadges%2Flib-count%2Flaunchql_category.json"/>
+   <img height="20" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fhyperweb-io%2Flib-count%2Fmain%2Foutput%2Fbadges%2Flib-count%2Fhyperweb_category.json"/>
+   <img height="20" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fhyperweb-io%2Flib-count%2Fmain%2Foutput%2Fbadges%2Flib-count%2Futils_category.json"/>
   </p>
 
   `
@@ -200,7 +200,7 @@ Welcome to the official repository for tracking the download counts of Interweb,
 **the Web:** At the heart of our mission is the synergy between the mature, user-friendly ecosystem of Web2 and the decentralized, secure potential of Web3. We're here to bridge this gap, unlocking real-world applications and the full potential of technology, making the web whole again.
 
 ### Our Projects:
-- **[Cosmology](https://github.com/cosmology-tech):** Build interchain apps in light speed.
+- **[Hyperweb](https://github.com/hyperweb-io):** Build interchain apps in light speed.
 - **[LaunchQL](https://github.com/launchql):** Simplify database management.
 
 Join us in shaping the future of the web.
@@ -261,9 +261,9 @@ This repository contains detailed download statistics for all Interweb, Inc.'s s
         num = humanFormat(utils.total);
         message = `${num} downloads`
         break;
-      case 'cosmology':
+      case 'hyperweb':
         color = '#A96DFF';
-        num = humanFormat(cosmology.total);
+        num = humanFormat(hyperweb.total);
         message = `${num} downloads`
         break;
       case 'launchql':
@@ -282,7 +282,7 @@ This repository contains detailed download statistics for all Interweb, Inc.'s s
     fs.writeFileSync(outputBadge, JSON.stringify(badge));
   }
 
-  makeCategoryBadge('cosmology', 'Web3');
+  makeCategoryBadge('hyperweb', 'Web3');
   makeCategoryBadge('launchql', 'Web2');
   makeCategoryBadge('utils', 'Utilities');
 
@@ -300,7 +300,7 @@ Download statistics serve as a robust indicator of usage and interest. Even with
 
 ### Related Projects
 
-- **[Cosmology](https://github.com/cosmology-tech):** Build interchain apps in light speed.
+- **[Hyperweb](https://github.com/hyperweb-io):** Build interchain apps in light speed.
 - **[LaunchQL](https://github.com/launchql):** Simplify database management.
 
 Join us in shaping the future of the web.
