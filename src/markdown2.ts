@@ -207,7 +207,7 @@ Join us in shaping the future of the web.
 
 ## Overview
 
-This repository contains detailed download statistics for all Interweb, Inc.'s software products. It is updated regularly to reflect the latest download counts, with intervals ending at the current time that the snapshot was taken.
+This repository contains detailed download statistics for all Hyperweb's software products. It is updated regularly to reflect the latest download counts, with intervals ending at the current time that the snapshot was taken.
 
 ## CSV files
 
