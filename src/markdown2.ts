@@ -53,7 +53,7 @@ const makeProductCategoryBadge = (name: string, period: string, n: number, label
 
 export function generateReadme(data: MergedPackageData) {
   const header = `
-# Interweb, Inc.
+# Hyperweb download count
    
 `;
 
@@ -174,7 +174,7 @@ export function generateReadme(data: MergedPackageData) {
   body += `
   
   <p align="center" width="100%">
-   <img src="https://github.com/hyperweb-io/lib-count/assets/545047/c379f2e6-7fd8-436c-bd8d-5e3a3837489e" alt="webincubator" width="120"><br />
+   <img src="https://raw.githubusercontent.com/hyperweb-io/lib-count/refs/heads/main/assets/logo.svg" alt="hyperweb" width="280"><br />
    <img height="20" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fhyperweb-io%2Flib-count%2Fmain%2Foutput%2Fbadges%2Flib-count%2Ftotal_downloads.json"/>
    <img height="20" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fhyperweb-io%2Flib-count%2Fmain%2Foutput%2Fbadges%2Flib-count%2Fmonthly_downloads.json"/>
    <img height="20" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fhyperweb-io%2Flib-count%2Fmain%2Foutput%2Fbadges%2Flib-count%2Fweekly_downloads.json"/>
