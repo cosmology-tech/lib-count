@@ -195,7 +195,7 @@ export function generateReadme(data: MergedPackageData) {
   body += `
 ### Software Download Count Repository
 
-Welcome to the official repository for tracking the download counts of Interweb, Inc.'s software. This repository provides detailed statistics on the downloads, helping users and developers gain insights into the usage and popularity of our products.
+Welcome to the official repository for tracking the download counts of Hyperweb's software. This repository provides detailed statistics on the downloads, helping users and developers gain insights into the usage and popularity of our products.
 
 **the Web:** At the heart of our mission is the synergy between the mature, user-friendly ecosystem of Web2 and the decentralized, secure potential of Web3. We're here to bridge this gap, unlocking real-world applications and the full potential of technology, making the web whole again.
 
